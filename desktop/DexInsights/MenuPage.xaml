@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexInsights.MenuPage"
+             Title=""
+             BackgroundColor="#C8C8C8"
+             xmlns:viewmodel="clr-namespace:DexInsights.ViewModels"
+             x:DataType="viewmodel:ThemeViewModel">
+
+    <ContentPage.Content>
+        <Frame Padding="0"
+               Margin="0"
+               HasShadow="False"
+               BorderColor="Transparent">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Frame Grid.Row="0"
+           BackgroundColor="{Binding ThemeColor}"
+           Padding="0"
+           CornerRadius="0"
+           BorderColor="{Binding ThemeColor}"
+           >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" BackgroundColor="#99373636" Stroke="Transparent">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="40,0,0,40"/>
+                            </Border.StrokeShape>
+                            <Image Margin="0, 10, 0, 10" Grid.Column="0" Source="dexlogo.png"/>
+                        </Border>
+                        <Frame Grid.Column="1"
+                   BackgroundColor="Transparent"
+                   Padding="12"
+                   CornerRadius="8"
+                   BorderColor="Transparent"
+                   WidthRequest="370"
+                   HeightRequest="50"
+                   VerticalOptions="Start"
+                   HorizontalOptions="End">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="profileicon.png"
+                           WidthRequest="40"
+                           HeightRequest="40"
+                           Aspect="AspectFit"
+                           HorizontalOptions="EndAndExpand"
+                           VerticalOptions="Center"
+                           Margin="0, 0, 10, 0"/>
+                                <Label x:Name="usernameLabel"
+                           TextColor="Black"
+                           Text="JacksonDiaz"
+                           FontSize="24"
+                           VerticalOptions="Center"
+                           HorizontalOptions="End"
+                           Margin="0, -5, 0, 0"/>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </Frame>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0"
+                Stroke="Transparent"
+                BackgroundColor="{Binding ThemeColor}"
+                Margin="0, -2, 0, 0"
+                >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,20,0,20"/>
+                        </Border.StrokeShape>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Frame Grid.Row="1" HeightRequest="70" WidthRequest="180" BackgroundColor="Transparent" BorderColor="Transparent" ZIndex="20"
+                       Margin="0, 10, 0, 0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-40, -5, 0, 0" FontSize="22" Text="■" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="22" Text="Dashboard" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame Grid.Row="2" HeightRequest="70" WidthRequest="180" BackgroundColor="Transparent" BorderColor="Transparent" ZIndex="20"
+                       Margin="0, 10, 0, 0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-40, -5, 0, 0" FontSize="22" Text="■" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="New Entry" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame Grid.Row="3" HeightRequest="70" WidthRequest="180" BackgroundColor="Transparent" BorderColor="Transparent" ZIndex="20"
+                        Margin="0, 10, 0, 0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-40, -5, 0, 0" FontSize="22" Text="■" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="Fields" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame Grid.Row="4" HeightRequest="70" WidthRequest="180" BackgroundColor="Transparent" BorderColor="Transparent" ZIndex="20"
+                        Margin="0, 10, 0, 0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-40, -5, 0, 0" FontSize="22" Text="■" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="Management" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame Grid.Row="5" HeightRequest="70" WidthRequest="180" BackgroundColor="Transparent" BorderColor="Transparent" ZIndex="20"
+                        Margin="0, 10, 0, 0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-40, -5, 0, 0" FontSize="22" Text="■" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="Analytics" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame Grid.Row="6" HeightRequest="70" WidthRequest="180" BackgroundColor="Transparent" BorderColor="Transparent" ZIndex="20"
+                        Margin="0, 10, 0, 0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-40, -5, 0, 0" FontSize="22" Text="■" WidthRequest="100" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="Settings" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="SettingsButtonClicked"/>
+                                    <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame Grid.Row="7" VerticalOptions="End" HeightRequest="100" BackgroundColor="Transparent" BorderColor="Transparent">
+                                <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-10, 20, 0, 0" FontSize="18" Text="FAQ" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                            </Frame>
+                        </Grid>
+                    </Border>
+                    <Grid x:Name="ContentPane" Grid.Column="1" Padding="10">
+                        
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Frame.Background>
+                <LinearGradientBrush EndPoint="1,1">
+                    <GradientStop Color="#DBDCD8"
+              Offset="0.1" />
+                    <GradientStop Color="#626662"
+              Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
