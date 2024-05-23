@@ -20,11 +20,18 @@
                 </Grid.RowDefinitions>
 
                 <Frame Grid.Row="0"
-                       BackgroundColor="{Binding ThemeColor}"
                        Padding="0"
                        CornerRadius="0"
                        BorderColor="{Binding ThemeColor}"
                        Margin="-1, -1, -1, 0">
+                    <Frame.Background>
+                        <LinearGradientBrush EndPoint="1, 0">
+                            <GradientStop Color="{Binding ThemeColor}"
+              Offset="0.1" />
+                            <GradientStop Color="{Binding ThemeColor2}"
+              Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Frame.Background>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="200"/>
@@ -71,9 +78,16 @@
                     </Grid.ColumnDefinitions>
                     <Border Grid.Column="0"
                 Stroke="Transparent"
-                BackgroundColor="{Binding ThemeColor}"
                 Margin="-3, -2, 0, -3"
                 >
+                        <Border.Background>
+                            <LinearGradientBrush EndPoint="0, 1">
+                                <GradientStop Color="{Binding ThemeColor}"
+                                                Offset="0.1" />
+                                <GradientStop Color="{Binding ThemeColor2}"
+                                                Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Border.Background>
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="0,20,0,20"/>
                         </Border.StrokeShape>
