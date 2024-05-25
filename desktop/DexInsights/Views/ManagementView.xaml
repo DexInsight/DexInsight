@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexInsights.Views.ManagementView"
+             xmlns:viewmodel="clr-namespace:DexInsights.ViewModels"
+             x:DataType="viewmodel:ThemeViewModel"
+             xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui">
+
+    <Frame x:Name="ContentFrame" Background="Transparent" BorderColor="Transparent" Margin="0, 0, 0, 0" Padding="0">
+        <Border Grid.Row="1" Stroke="Transparent" WidthRequest="1300" HorizontalOptions="Center" HeightRequest="805">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="{Binding ThemeColor2}"
+                                    Offset="0" />
+                    <GradientStop Color="#131216"
+                                    Offset="1" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="650"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" Stroke="#9924242A" BackgroundColor="#9924242A" WidthRequest="350">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="0, 0, 15, 15"/>
+                    </Border.StrokeShape>
+                    <Label FontFamily="Arial" Text="Management" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" Margin="0, 0, 0, 0"/>
+                </Border>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="450"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="550"/>
+                    </Grid.ColumnDefinitions>
+                    <Border x:Name="MemberLayout" Grid.Column="0" Stroke="Transparent" HeightRequest="500" WidthRequest="400" BackgroundColor="#9924242A" VerticalOptions="StartAndExpand" Margin="0, 50, 0, 0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20"/>
+                        </Border.StrokeShape>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" FontFamily="Arial" Text="Members" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" Margin="0, 5, 0, 0"/>
+                            <Grid Grid.Row="1" WidthRequest="400">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="330"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="70"/>
+                                    <RowDefinition Height="90"/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0" x:Name="NoMembersYet" FontFamily="Arial" Text="You haven't added anyone yet to this database" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20" Margin="0, 30, 0, 0" IsVisible="False"/>
+                                <VerticalStackLayout Grid.Row="0" x:Name="MembersList" Spacing="0" HeightRequest="330" WidthRequest="400" Padding="0, 10, 0, 0">
+                                    
+                                </VerticalStackLayout>
+                                <HorizontalStackLayout Grid.Row="1" HorizontalOptions="Center">
+                                    <Label x:Name="LeftArrow" Text="⮜" FontAttributes="Bold" TextColor="{Binding ThemeColor}" FontSize="35" Margin="0, -5, 30, 0" IsVisible="False">
+                                        <Label.GestureRecognizers>
+                                            <PointerGestureRecognizer PointerEntered="MemberArrow_PointerEnter" PointerExited="MemberArrow_PointerExit"/>
+                                            <TapGestureRecognizer Tapped="MemberLeftArrow_Tapped"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                    <Label x:Name="RightArrow" Text="⮞" FontAttributes="Bold" TextColor="{Binding ThemeColor}" FontSize="35" Margin="30, -5, 0, 0">
+                                        <Label.GestureRecognizers>
+                                            <PointerGestureRecognizer PointerEntered="MemberArrow_PointerEnter" PointerExited="MemberArrow_PointerExit"/>
+                                            <TapGestureRecognizer Tapped="MemberRightArrow_Tapped"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </HorizontalStackLayout>
+                                <Button Grid.Row="2" FontFamily="Arial" Text="Add Member" FontSize="25" TextColor="White" BackgroundColor="{Binding ThemeColor2}">
+                                    <Button.GestureRecognizers>
+                                        <PointerGestureRecognizer PointerEntered="AddMember_PointerEnter" PointerExited="AddMember_PointerExit"/>
+                                        <TapGestureRecognizer Tapped="AddMember_Tapped"/>
+                                    </Button.GestureRecognizers>
+                                </Button>
+                                <VerticalStackLayout x:Name="AddMemberSpace" Grid.Row="3" Margin="5">
+                                    
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                    <Border Grid.Column="2" Stroke="Transparent" VerticalOptions="StartAndExpand" HeightRequest="500" WidthRequest="500" BackgroundColor="#9924242A" Margin="0, 50, 0, 0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20"/>
+                        </Border.StrokeShape>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" FontFamily="Arial" Text="Tables" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" Margin="0, 5, 0, 0"/>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Border>
+    </Frame>
+</ContentView>
