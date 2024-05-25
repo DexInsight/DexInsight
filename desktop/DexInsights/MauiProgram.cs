@@ -1,4 +1,6 @@
-﻿using DexInsights.Views;
+﻿using CommunityToolkit.Maui;
+using CommunityToolkit.Maui.Core;
+using DexInsights.Views;
 using InputKit.Handlers;
 using Microsoft.Extensions.Logging;
 using Mopups.Hosting;
@@ -13,6 +15,8 @@ namespace DexInsights {
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiApp<App>().UseMauiCommunityToolkitCore()
+                .UseMauiCommunityToolkit()
                 .ConfigureMopups()
                 .ConfigureFonts(fonts => {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
