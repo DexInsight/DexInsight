@@ -11,8 +11,6 @@ public partial class MenuPage : ContentPage {
 		InitializeComponent();
         BindingContext = model;
         this.tvm = model;
-        NavigationPage.SetHasBackButton(this, false);
-        NavigationPage.SetHasNavigationBar(this, false);
     }
 
     private void HoverEndedMenuButton(object sender, PointerEventArgs e) {
@@ -34,8 +32,17 @@ public partial class MenuPage : ContentPage {
 
     private void SettingsButtonClicked(object sender, TappedEventArgs e) {
         if (selected != "settings") {
+            ContentPane.Children.RemoveAt(0);
             ContentPane.Children.Add(new SettingsView(tvm));
             selected = "settings";
+        }
+    }
+
+    private void ManagementButtonClicked(object sender, TappedEventArgs e) {
+        if (selected != "management") {
+            ContentPane.Children.RemoveAt(0);
+            ContentPane.Children.Add(new ManagementView(tvm));
+            selected = "management";
         }
     }
 }

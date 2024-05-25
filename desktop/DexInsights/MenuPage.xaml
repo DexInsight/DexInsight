@@ -7,6 +7,10 @@
              xmlns:viewmodel="clr-namespace:DexInsights.ViewModels"
              x:DataType="viewmodel:ThemeViewModel">
 
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsVisible="False" IsEnabled="False" />
+    </Shell.BackButtonBehavior>
+
     <ContentPage.Content>
         <Frame Padding="0"
                Margin="-2"
@@ -142,7 +146,7 @@
                                     <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="Management" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
                                 </StackLayout>
                                 <Frame.GestureRecognizers>
-                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <TapGestureRecognizer Tapped="ManagementButtonClicked"/>
                                     <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
                                 </Frame.GestureRecognizers>
                             </Frame>
@@ -173,16 +177,16 @@
                             </Frame>
                         </Grid>
                     </Border>
-                    <Grid x:Name="ContentPane" Grid.Column="1" Padding="10">
+                    <Grid x:Name="ContentPane" Grid.Column="1" Padding="0">
                         
                     </Grid>
                 </Grid>
             </Grid>
             <Frame.Background>
                 <LinearGradientBrush EndPoint="1,1">
-                    <GradientStop Color="#DBDCD8"
+                    <GradientStop Color="#3C3C3C"
               Offset="0.1" />
-                    <GradientStop Color="#626662"
+                    <GradientStop Color="#171717"
               Offset="1.0" />
                 </LinearGradientBrush>
             </Frame.Background>

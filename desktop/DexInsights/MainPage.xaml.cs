@@ -1,11 +1,11 @@
-﻿using Mopups.Services;
+﻿using CommunityToolkit.Maui.Core;
+using Mopups.Services;
 
 namespace DexInsights {
     public partial class MainPage : ContentPage {
 
         public MainPage() {
             InitializeComponent();
-            NavigationPage.SetHasBackButton(this, false);
             ShowLoginPopup();
         }
 
