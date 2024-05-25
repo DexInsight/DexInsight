@@ -23,7 +23,6 @@ public partial class SettingsView : ContentView
         var animation = new Animation {
         { 0, 1, new Animation(v => ((Frame)ContentFrame).TranslationY = v, 200, 0) }
     };
-
         animation.Commit(((Frame)ContentFrame), "AnimateTranslation", length: 200);
     }
 }

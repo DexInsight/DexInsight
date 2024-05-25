@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexInsights.Views.NewMemberView"
+             xmlns:viewmodel="clr-namespace:DexInsights.ViewModels"
+             x:DataType="viewmodel:ThemeViewModel">
+
+    <Border HeightRequest="50" WidthRequest="375" BackgroundColor="{Binding ThemeColor2, Source={RelativeSource AncestorType={x:Type viewmodel:ThemeViewModel}}}" VerticalOptions="Start" Stroke="{Binding ThemeColor3, Source={RelativeSource AncestorType={x:Type viewmodel:ThemeViewModel}}}" Margin="0, 5, 0, 5">
+        <Border.StrokeShape>
+            <RoundRectangle CornerRadius="10"/>
+        </Border.StrokeShape>
+        <Grid x:DataType="viewmodel:ManagerMemberViewModel">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="42"/>
+                <ColumnDefinition Width="40"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Padding="0, 5, 0, 5" Stroke="Transparent" Margin="-7, 0, 0, 0">
+                <Entry Text="{Binding Name}" x:Name="MemberName" HorizontalOptions="Start" VerticalOptions="Center" FontFamily="Arial" FontSize="21" Margin="5, 0, 0, 0" WidthRequest="130" BackgroundColor="#7324242A"/>
+            </Border>
+            <VerticalStackLayout Grid.Column="1" WidthRequest="170" Margin="10, 0, 0, 0" HeightRequest="50">
+                <Border HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="40" Stroke="#7324242A" BackgroundColor="#7324242A" StrokeThickness="-1" ZIndex="1" Margin="0, 6, 0, 0">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"/>
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="50"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="{Binding Role}" x:Name="SelectedRoleName" BackgroundColor="Transparent" TextColor="White" FontFamily="Arial" FontSize="19" VerticalOptions="Center" HorizontalOptions="Center" Margin="10, 0, 0, 0"/>
+                        <Image Grid.Column="1" Source="downarrow.png" HeightRequest="25" HorizontalOptions="End" Margin="0, -2, 10, 0">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="RoleSwitchTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                </Border>
+            </VerticalStackLayout>
+            <Image x:Name="SaveButton" Grid.Column="3" Source="save.png" HeightRequest="35" HorizontalOptions="Start" Margin="0, 0, 0, 0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="RoleSaveTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </Border>
+</ContentView>
