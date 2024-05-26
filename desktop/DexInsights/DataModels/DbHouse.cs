@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace DexInsights.DataModels {
     public class DbHouse {
+
         [JsonProperty("id")]
         private int id { get; set; }
 
@@ -36,7 +37,10 @@ namespace DexInsights.DataModels {
         [JsonProperty("address")]
         private List<string> address { get; set; }
 
-        public DbHouse(int id, DateTime date_added, DateTime date_sold, List<string> boughtBy, int price, int size, string county, string city, List<string> address) {
+        [JsonProperty("addedBy")]
+        private string addedBy { get; set; }
+
+        public DbHouse(int id, DateTime date_added, DateTime date_sold, List<string> boughtBy, int price, int size, string county, string city, List<string> address, string addedBy) {
             this.id = id;
             this.date_added = date_added;
             this.date_sold = date_sold;
@@ -46,6 +50,7 @@ namespace DexInsights.DataModels {
             this.county = county;
             this.city = city;
             this.address = address;
+            this.addedBy = addedBy;
         }
 
         public DateTime GetDateAdded() {
@@ -80,6 +85,17 @@ namespace DexInsights.DataModels {
         }
         public int GetId() {
             return this.id;
+        }
+        public string GetAddedBy() {
+            return this.addedBy;
+        }
+
+        public static object GetMethodValue(object obj, string methodName) {
+            var methodInfo = obj.GetType().GetMethod(methodName);
+            if (methodInfo == null) {
+                throw new ArgumentException($"Method '{methodName}' not found on type '{obj.GetType().Name}'");
+            }
+            return methodInfo.Invoke(obj, null);
         }
     }
 }
