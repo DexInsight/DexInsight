@@ -22,8 +22,8 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="60"/>
-                    <RowDefinition Height="675"/>
-                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="680"/>
+                    <RowDefinition Height="45"/>
                 </Grid.RowDefinitions>
                 <Border Grid.Row="0" Stroke="#9924242A" BackgroundColor="#9924242A" WidthRequest="350">
                     <Border.StrokeShape>
@@ -31,11 +31,11 @@
                     </Border.StrokeShape>
                     <Label FontFamily="Arial" Text="Fields" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" Margin="0, 0, 0, 0"/>
                 </Border>
-                <Border Grid.Row="1" Margin="20, 50, 20, 0" BackgroundColor="#3d3d3d2e" Stroke="#313131" StrokeThickness="3">
+                <Border Grid.Row="1" Margin="20, 20, 20, 0" BackgroundColor="#3d3d3d2e" Stroke="#313131" StrokeThickness="3">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="5"/>
                     </Border.StrokeShape>
-                    <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Horizontal">
+                    <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Horizontal" VerticalScrollBarVisibility="Never">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="50"/>
@@ -49,12 +49,13 @@
                                         <ColumnDefinition Width="80"/>
                                         <ColumnDefinition Width="140"/>
                                         <ColumnDefinition Width="140"/>
+                                        <ColumnDefinition Width="300"/>
                                         <ColumnDefinition Width="140"/>
                                         <ColumnDefinition Width="140"/>
-                                        <ColumnDefinition Width="140"/>
-                                        <ColumnDefinition Width="140"/>
-                                        <ColumnDefinition Width="160"/>
-                                        <ColumnDefinition Width="190"/>
+                                        <ColumnDefinition Width="230"/>
+                                        <ColumnDefinition Width="210"/>
+                                        <ColumnDefinition Width="240"/>
+                                        <ColumnDefinition Width="180"/>
                                         <ColumnDefinition Width="50"/>
                                     </Grid.ColumnDefinitions>
 
@@ -64,125 +65,187 @@
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetId" Grid.Column="0" HorizontalOptions="Center">
                                                 <Label FontFamily="Arial" Text="ID" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="1" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="1" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetDateAdded" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="Added" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="2" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="2" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetDateSold" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="Sold" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="3" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="3" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetBoughtBy" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="BoughtBy" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="4" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="4" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetPrice" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="Price" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="5" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="5" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetSize" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="Size" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="6" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="6" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetCounty" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="County" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="7" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="7" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetCity" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="City" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="8" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="8" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
                                         <Grid Margin="7, 0, 0, 0">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="10"/>
                                             </Grid.ColumnDefinitions>
-                                            <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <HorizontalStackLayout x:Name="GetAddress" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
                                                 <Label FontFamily="Arial" Text="Address" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                                                 <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
                                             </HorizontalStackLayout>
                                             <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
                                         </Grid>
                                     </Border>
-                                    <Border Grid.Column="9" VerticalOptions="Center" Stroke="Transparent" Margin="0, -2, -2, -2">
+                                    <Border Grid.Column="9" VerticalOptions="Center" Stroke="Transparent" HeightRequest="50" Margin="-9, -2, -2, -2">
+                                        <Grid Margin="7, 0, 0, 0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="10"/>
+                                            </Grid.ColumnDefinitions>
+                                            <HorizontalStackLayout x:Name="GetAddedBy" Grid.Column="0" HorizontalOptions="Center" Margin="9, 0, 0, 0">
+                                                <Label FontFamily="Arial" Text="AddedBy" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                                <Image Source="orderarrow.png" WidthRequest="30" HeightRequest="30" Margin="3, 0, 0, 0"/>
+                                                <HorizontalStackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="OrderTapped"/>
+                                                </HorizontalStackLayout.GestureRecognizers>
+                                            </HorizontalStackLayout>
+                                            <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                        </Grid>
+                                    </Border>
+                                    <Border Grid.Column="10" VerticalOptions="Center" Stroke="Transparent" Margin="0, -2, -2, -2">
                                         
                                     </Border>
                                 </Grid>
                             </Border>
+                            <Border Grid.Row="1" Margin="-2, -2, -2, -2" BackgroundColor="Transparent" Stroke="Transparent">
+                                <VerticalStackLayout x:Name="FieldsTable" Margin="0, 0, 0, 5">
+                                    
+                                </VerticalStackLayout>
+                            </Border>
                         </Grid>
                     </ScrollView>
                 </Border>
+                <HorizontalStackLayout Grid.Row="2" HorizontalOptions="Center">
+                    <Label x:Name="LeftArrow" Text="⮜" FontAttributes="Bold" TextColor="{Binding ThemeColor}" FontSize="35" Margin="0, 0, 100, 0" IsVisible="False">
+                        <Label.GestureRecognizers>
+                            <PointerGestureRecognizer PointerEntered="PageArrow_PointerEnter" PointerExited="PageArrow_PointerExit"/>
+                            <TapGestureRecognizer Tapped="PageLeftArrow_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label x:Name="RightArrow" Text="⮞" FontAttributes="Bold" TextColor="{Binding ThemeColor}" FontSize="35" Margin="100, 0, 0, 0">
+                        <Label.GestureRecognizers>
+                            <PointerGestureRecognizer PointerEntered="PageArrow_PointerEnter" PointerExited="PageArrow_PointerExit"/>
+                            <TapGestureRecognizer Tapped="PageRightArrow_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
             </Grid>
         </Border>
     </Frame>
