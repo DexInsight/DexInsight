@@ -45,4 +45,12 @@ public partial class MenuPage : ContentPage {
             selected = "management";
         }
     }
+
+    private void FieldsButtonClicked(object sender, TappedEventArgs e) {
+        if (selected != "fields") {
+            ContentPane.Children.RemoveAt(0);
+            ContentPane.Children.Add(new FieldsView(tvm));
+            selected = "fields";
+        }
+    }
 }

@@ -135,7 +135,7 @@
                                     <Label FontFamily="Arial" TextColor="White" FontAttributes="Bold" Margin="-35, 0, 0, 0" FontSize="18" Text="Fields" WidthRequest="180" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
                                 </StackLayout>
                                 <Frame.GestureRecognizers>
-                                    <!--<TapGestureRecognizer Tapped="NewGameButtonClicked"/>-->
+                                    <TapGestureRecognizer Tapped="FieldsButtonClicked"/>
                                     <PointerGestureRecognizer PointerEntered="HoverBeganMenuButton" PointerExited="HoverEndedMenuButton"/>
                                 </Frame.GestureRecognizers>
                             </Frame>

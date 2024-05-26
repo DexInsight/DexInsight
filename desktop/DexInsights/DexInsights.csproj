@@ -64,6 +64,7 @@
 	  <None Remove="Resources\Images\profileicon.png" />
 	  <None Remove="Resources\Images\rightarrow.png" />
 	  <None Remove="Resources\Images\save.png" />
+	  <None Remove="Resources\Images\x.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -106,6 +107,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="MenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\FieldsView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\ManagementView.xaml">

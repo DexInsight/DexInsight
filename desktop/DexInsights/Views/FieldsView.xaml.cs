@@ -1,5 +1,4 @@
 using DexInsights.ViewModels;
-using static Android.Graphics.ColorSpace;
 
 namespace DexInsights.Views;
 
