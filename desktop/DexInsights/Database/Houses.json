@@ -14,7 +14,8 @@
     "address": [
       "Kossuth Lajos utca",
       "15"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 1,
@@ -30,7 +31,8 @@
     "address": [
       "Baross Gábor út",
       "8"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 2,
@@ -47,7 +49,8 @@
     "address": [
       "Petőfi tér",
       "2"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 3,
@@ -63,7 +66,8 @@
     "address": [
       "Szentháromság utca",
       "19"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 4,
@@ -80,7 +84,8 @@
     "address": [
       "Rákóczi út",
       "23"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 5,
@@ -96,7 +101,8 @@
     "address": [
       "Széchenyi tér",
       "5"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 6,
@@ -113,40 +119,8 @@
     "address": [
       "Kossuth utca",
       "10"
-    ]
-  },
-  {
-    "id": 7,
-    "date_added": "2024-05-06",
-    "date_sold": "2023-10-17",
-    "boughtBy": [
-      "Lukács Róbert"
     ],
-    "price": 29000000,
-    "size": 75,
-    "county": "Heves",
-    "city": "Eger",
-    "address": [
-      "Bajcsy-Zsilinszky utca",
-      "7"
-    ]
-  },
-  {
-    "id": 8,
-    "date_added": "2024-05-07",
-    "date_sold": "2024-04-11",
-    "boughtBy": [
-      "Váradi Ágnes",
-      "Simon Gábor"
-    ],
-    "price": 42000000,
-    "size": 115,
-    "county": "Komárom-Esztergom",
-    "city": "Tatabánya",
-    "address": [
-      "Árpád utca",
-      "12"
-    ]
+    "addedBy": "Bambini"
   },
   {
     "id": 9,
@@ -163,7 +137,8 @@
     "address": [
       "Mátyás király utca",
       "20"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 10,
@@ -179,7 +154,8 @@
     "address": [
       "Kossuth tér",
       "3"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 11,
@@ -196,7 +172,8 @@
     "address": [
       "Tisza utca",
       "14"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 12,
@@ -212,7 +189,8 @@
     "address": [
       "Ady Endre utca",
       "6"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 13,
@@ -229,7 +207,8 @@
     "address": [
       "Vörösmarty utca",
       "4"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 14,
@@ -245,7 +224,8 @@
     "address": [
       "Arany János utca",
       "11"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 15,
@@ -262,7 +242,8 @@
     "address": [
       "Kölcsey utca",
       "8"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 16,
@@ -278,7 +259,8 @@
     "address": [
       "Eötvös utca",
       "9"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 17,
@@ -295,7 +277,8 @@
     "address": [
       "Petőfi Sándor utca",
       "18"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 18,
@@ -311,7 +294,8 @@
     "address": [
       "Rákóczi Ferenc utca",
       "16"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 19,
@@ -328,7 +312,8 @@
     "address": [
       "Béke tér",
       "22"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 20,
@@ -345,7 +330,8 @@
     "address": [
       "Kossuth utca",
       "5"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 21,
@@ -361,7 +347,8 @@
     "address": [
       "Bartók Béla utca",
       "2"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 22,
@@ -378,7 +365,8 @@
     "address": [
       "Szabadság tér",
       "3"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 23,
@@ -395,7 +383,8 @@
     "address": [
       "Dózsa György utca",
       "12"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 24,
@@ -407,11 +396,12 @@
     "price": 40000000,
     "size": 105,
     "county": "Csongrád-Csanád",
-    "city": "Hódmezővásárhely",
+    "city": "Tata",
     "address": [
       "Béke utca",
       "7"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 25,
@@ -428,7 +418,8 @@
     "address": [
       "Petőfi Sándor utca",
       "9"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 26,
@@ -445,7 +436,8 @@
     "address": [
       "Széchenyi utca",
       "11"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 27,
@@ -462,7 +454,8 @@
     "address": [
       "Rákóczi Ferenc utca",
       "6"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 28,
@@ -478,7 +471,8 @@
     "address": [
       "Kossuth Lajos utca",
       "8"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 29,
@@ -495,7 +489,8 @@
     "address": [
       "Petőfi Sándor utca",
       "21"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 30,
@@ -511,7 +506,8 @@
     "address": [
       "Dózsa György utca",
       "3"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 31,
@@ -528,7 +524,8 @@
     "address": [
       "Fő utca",
       "30"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 32,
@@ -545,7 +542,8 @@
     "address": [
       "Duna utca",
       "18"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 33,
@@ -561,7 +559,8 @@
     "address": [
       "Szabadság utca",
       "11"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 34,
@@ -578,7 +577,8 @@
     "address": [
       "Rózsa utca",
       "7"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 35,
@@ -594,7 +594,8 @@
     "address": [
       "Kossuth utca",
       "15"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 36,
@@ -611,7 +612,8 @@
     "address": [
       "Jókai utca",
       "20"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 37,
@@ -628,7 +630,8 @@
     "address": [
       "Petőfi utca",
       "5"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 38,
@@ -645,7 +648,8 @@
     "address": [
       "Ady Endre utca",
       "12"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 39,
@@ -662,7 +666,8 @@
     "address": [
       "Széchenyi utca",
       "6"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 40,
@@ -679,7 +684,8 @@
     "address": [
       "Kossuth Lajos utca",
       "10"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 41,
@@ -696,7 +702,8 @@
     "address": [
       "Kossuth Lajos utca",
       "15"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 42,
@@ -712,7 +719,8 @@
     "address": [
       "Baross Gábor út",
       "8"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 43,
@@ -729,7 +737,8 @@
     "address": [
       "Petőfi tér",
       "2"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 44,
@@ -745,7 +754,8 @@
     "address": [
       "Szentháromság utca",
       "19"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 45,
@@ -762,7 +772,8 @@
     "address": [
       "Rákóczi út",
       "23"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 46,
@@ -778,7 +789,8 @@
     "address": [
       "Széchenyi tér",
       "5"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 47,
@@ -795,7 +807,8 @@
     "address": [
       "Kossuth utca",
       "10"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 48,
@@ -811,7 +824,8 @@
     "address": [
       "Bajcsy-Zsilinszky utca",
       "7"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 49,
@@ -828,7 +842,8 @@
     "address": [
       "Árpád utca",
       "12"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 50,
@@ -845,7 +860,8 @@
     "address": [
       "Mátyás király utca",
       "20"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 51,
@@ -861,7 +877,8 @@
     "address": [
       "Kossuth tér",
       "3"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 52,
@@ -878,7 +895,8 @@
     "address": [
       "Tisza utca",
       "14"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 53,
@@ -894,7 +912,8 @@
     "address": [
       "Ady Endre utca",
       "6"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 54,
@@ -911,7 +930,8 @@
     "address": [
       "Vörösmarty utca",
       "4"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 55,
@@ -927,7 +947,8 @@
     "address": [
       "Arany János utca",
       "11"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 56,
@@ -944,7 +965,8 @@
     "address": [
       "Andrássy út",
       "32"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 57,
@@ -960,7 +982,8 @@
     "address": [
       "Fő utca",
       "45"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 58,
@@ -977,7 +1000,8 @@
     "address": [
       "Kossuth utca",
       "12"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 59,
@@ -993,7 +1017,8 @@
     "address": [
       "Petőfi Sándor utca",
       "4"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 60,
@@ -1010,7 +1035,8 @@
     "address": [
       "Széchenyi tér",
       "8"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 61,
@@ -1026,7 +1052,8 @@
     "address": [
       "Szent István utca",
       "17"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 62,
@@ -1043,7 +1070,8 @@
     "address": [
       "Dobó tér",
       "9"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 63,
@@ -1059,7 +1087,8 @@
     "address": [
       "Árpád utca",
       "22"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 64,
@@ -1076,7 +1105,8 @@
     "address": [
       "Hunyadi utca",
       "6"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 65,
@@ -1093,7 +1123,8 @@
     "address": [
       "Széchenyi út",
       "30"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 66,
@@ -1109,7 +1140,8 @@
     "address": [
       "Ady Endre utca",
       "17"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 67,
@@ -1126,7 +1158,8 @@
     "address": [
       "Rákóczi utca",
       "8"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 68,
@@ -1142,7 +1175,8 @@
     "address": [
       "Arany János utca",
       "10"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 69,
@@ -1159,7 +1193,8 @@
     "address": [
       "Petőfi utca",
       "5"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 70,
@@ -1175,7 +1210,8 @@
     "address": [
       "Szent Márton utca",
       "19"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 71,
@@ -1192,7 +1228,8 @@
     "address": [
       "Fő utca",
       "6"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 72,
@@ -1208,7 +1245,8 @@
     "address": [
       "Széchenyi tér",
       "18"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 73,
@@ -1224,7 +1262,8 @@
     "address": [
       "Kossuth Lajos utca",
       "22"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 74,
@@ -1241,7 +1280,8 @@
     "address": [
       "Rákóczi út",
       "9"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 75,
@@ -1257,7 +1297,8 @@
     "address": [
       "Petőfi Sándor utca",
       "11"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 76,
@@ -1274,7 +1315,8 @@
     "address": [
       "Deák Ferenc utca",
       "5"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 77,
@@ -1290,7 +1332,8 @@
     "address": [
       "Kossuth tér",
       "7"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 78,
@@ -1307,7 +1350,8 @@
     "address": [
       "Petőfi Sándor utca",
       "13"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 79,
@@ -1323,7 +1367,8 @@
     "address": [
       "Fő utca",
       "2"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 80,
@@ -1340,7 +1385,8 @@
     "address": [
       "Duna utca",
       "14"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 81,
@@ -1357,7 +1403,8 @@
     "address": [
       "Bartók Béla út",
       "23"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 82,
@@ -1374,7 +1421,8 @@
     "address": [
       "Várkör utca",
       "18"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 83,
@@ -1390,7 +1438,8 @@
     "address": [
       "Szent István tér",
       "3"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 84,
@@ -1407,7 +1456,8 @@
     "address": [
       "Ady Endre utca",
       "8"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 85,
@@ -1423,7 +1473,8 @@
     "address": [
       "Bartók Béla út",
       "4"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 86,
@@ -1440,7 +1491,8 @@
     "address": [
       "Fő utca",
       "16"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 87,
@@ -1457,7 +1509,8 @@
     "address": [
       "Rákóczi út",
       "14"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 88,
@@ -1469,11 +1522,12 @@
     "price": 26000000,
     "size": 110,
     "county": "Csongrád-Csanád",
-    "city": "Hódmezővásárhely",
+    "city": "Tata",
     "address": [
       "Petőfi Sándor utca",
       "21"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 89,
@@ -1490,7 +1544,8 @@
     "address": [
       "Széchenyi tér",
       "10"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 90,
@@ -1506,7 +1561,8 @@
     "address": [
       "Deák tér",
       "5"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 91,
@@ -1522,7 +1578,8 @@
     "address": [
       "Fő tér",
       "7"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 92,
@@ -1538,7 +1595,8 @@
     "address": [
       "Dózsa György utca",
       "3"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 93,
@@ -1555,7 +1613,8 @@
     "address": [
       "Fő tér",
       "2"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 94,
@@ -1571,7 +1630,8 @@
     "address": [
       "Kossuth Lajos utca",
       "12"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 95,
@@ -1588,7 +1648,8 @@
     "address": [
       "Árpád út",
       "11"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 96,
@@ -1604,7 +1665,8 @@
     "address": [
       "Rákóczi út",
       "15"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 97,
@@ -1621,7 +1683,8 @@
     "address": [
       "Széchenyi tér",
       "18"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 98,
@@ -1638,7 +1701,8 @@
     "address": [
       "Petőfi utca",
       "7"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 99,
@@ -1654,7 +1718,8 @@
     "address": [
       "Fő tér",
       "16"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 100,
@@ -1671,7 +1736,8 @@
     "address": [
       "Kossuth tér",
       "4"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 101,
@@ -1687,7 +1753,8 @@
     "address": [
       "Bartók Béla utca",
       "21"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 102,
@@ -1703,7 +1770,8 @@
     "address": [
       "Fő utca",
       "2"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 103,
@@ -1719,7 +1787,8 @@
     "address": [
       "Szent István tér",
       "6"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 104,
@@ -1736,7 +1805,8 @@
     "address": [
       "Deák Ferenc utca",
       "11"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 105,
@@ -1753,7 +1823,8 @@
     "address": [
       "Petőfi utca",
       "9"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 106,
@@ -1770,7 +1841,8 @@
     "address": [
       "Széchenyi tér",
       "7"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 107,
@@ -1787,7 +1859,8 @@
     "address": [
       "Bartók Béla utca",
       "10"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 108,
@@ -1803,7 +1876,8 @@
     "address": [
       "Kossuth tér",
       "3"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 109,
@@ -1820,7 +1894,8 @@
     "address": [
       "Ady Endre utca",
       "5"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 110,
@@ -1836,7 +1911,8 @@
     "address": [
       "Széchenyi utca",
       "8"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 111,
@@ -1853,7 +1929,8 @@
     "address": [
       "Petőfi Sándor utca",
       "14"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 112,
@@ -1869,7 +1946,8 @@
     "address": [
       "Kossuth tér",
       "6"
-    ]
+    ],
+    "addedBy": "Diabolic"
   },
   {
     "id": 113,
@@ -1886,7 +1964,8 @@
     "address": [
       "Széchenyi utca",
       "3"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 114,
@@ -1902,7 +1981,8 @@
     "address": [
       "Petőfi Sándor utca",
       "11"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 115,
@@ -1919,7 +1999,8 @@
     "address": [
       "Fő utca",
       "4"
-    ]
+    ],
+    "addedBy": "Bambini"
   },
   {
     "id": 116,
@@ -1935,7 +2016,8 @@
     "address": [
       "Árpád út",
       "8"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 117,
@@ -1952,7 +2034,8 @@
     "address": [
       "Dózsa György utca",
       "15"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 118,
@@ -1969,7 +2052,8 @@
     "address": [
       "Petőfi utca",
       "2"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 119,
@@ -1986,7 +2070,8 @@
     "address": [
       "Széchenyi tér",
       "5"
-    ]
+    ],
+    "addedBy": "JacksonDiaz"
   },
   {
     "id": 120,
@@ -2002,7 +2087,8 @@
     "address": [
       "Deák tér",
       "8"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 121,
@@ -2018,7 +2104,8 @@
     "address": [
       "Bartók Béla utca",
       "19"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 122,
@@ -2034,7 +2121,8 @@
     "address": [
       "Kossuth utca",
       "4"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 123,
@@ -2051,7 +2139,8 @@
     "address": [
       "Vasút utca",
       "11"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 124,
@@ -2068,7 +2157,8 @@
     "address": [
       "Kossuth Lajos utca",
       "10"
-    ]
+    ],
+    "addedBy": "Hunter"
   },
   {
     "id": 125,
@@ -2084,7 +2174,8 @@
     "address": [
       "Petőfi utca",
       "11"
-    ]
+    ],
+    "addedBy": "Wilson"
   },
   {
     "id": 126,
@@ -2101,7 +2192,8 @@
     "address": [
       "Fő tér",
       "3"
-    ]
+    ],
+    "addedBy": "MottoFeel"
   },
   {
     "id": 127,
@@ -2118,6 +2210,7 @@
     "address": [
       "Széchenyi utca",
       "4"
-    ]
+    ],
+    "addedBy": "Diabolic"
   }
 ]
