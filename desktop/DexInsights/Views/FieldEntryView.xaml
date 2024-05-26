@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexInsights.Views.FieldEntryView"
+             xmlns:viewmodel="clr-namespace:DexInsights.ViewModels"
+             x:DataType="viewmodel:FieldEntryViewModel">
+
+    <Border HeightRequest="50" HorizontalOptions="Start" Margin="-2, 5, -2, 5" Stroke="#9924242A" StrokeThickness="3">
+        <Border.StrokeShape>
+            <RoundRectangle CornerRadius="0"/>
+        </Border.StrokeShape>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="230"/>
+                <ColumnDefinition Width="210"/>
+                <ColumnDefinition Width="240"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding Id}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="1" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="DateAddedStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding DateAddedFormatted}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="2" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="DateSoldStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding DateSoldFormatted}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="3" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="BoughtByStack" Grid.Column="0" HorizontalOptions="Start">
+                    <Label FontFamily="Arial" Text="{Binding BoughtByFormatted}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="4" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="PriceStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding Price}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="5" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="SizeStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding Size}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="6" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="CountyStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding County}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="7" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="CityStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding City}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="8" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="AddressStack" Grid.Column="0" HorizontalOptions="Start">
+                    <Label FontFamily="Arial" Text="{Binding AddressFormatted}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="FieldTapped" NumberOfTapsRequired="2"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Column="9" Margin="7, 0, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout x:Name="AddedByStack" Grid.Column="0" HorizontalOptions="Center">
+                    <Label FontFamily="Arial" Text="{Binding AddedBy}" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </HorizontalStackLayout>
+                <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+            </Grid>
+
+            <Image Grid.Column="10" Source="x.png" HeightRequest="23" HorizontalOptions="Center" Margin="0, 0, 0, 0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="DeleteTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </Border>
+</ContentView>
