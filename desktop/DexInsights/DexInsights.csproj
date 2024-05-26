@@ -61,6 +61,7 @@
 	  <None Remove="Resources\Images\DownArrow.png" />
 	  <None Remove="Resources\Images\kick.png" />
 	  <None Remove="Resources\Images\leftarrow.png" />
+	  <None Remove="Resources\Images\orderarrow.png" />
 	  <None Remove="Resources\Images\profileicon.png" />
 	  <None Remove="Resources\Images\rightarrow.png" />
 	  <None Remove="Resources\Images\save.png" />
