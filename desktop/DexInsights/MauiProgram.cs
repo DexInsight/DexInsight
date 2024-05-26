@@ -32,6 +32,7 @@ namespace DexInsights {
 
             builder.Services.AddSingleton<MenuPage>();
             builder.Services.AddSingleton<SettingsView>();
+            builder.Services.AddSingleton<FieldsView>();
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddSingleton<IPopupNavigation>(MopupService.Instance);
 
