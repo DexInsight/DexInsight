@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace DexInsights.DataModels {
     public class DbHouse {
+        [JsonProperty("id")]
+        private int id { get; set; }
+
         [JsonProperty("date_added")]
         [JsonConverter(typeof(CustomDateTimeConverter))]
         private DateTime date_added { get; set; }
@@ -33,7 +36,8 @@ namespace DexInsights.DataModels {
         [JsonProperty("address")]
         private List<string> address { get; set; }
 
-        public DbHouse(DateTime date_added, DateTime date_sold, List<string> boughtBy, int price, int size, string county, string city, List<string> address) {
+        public DbHouse(int id, DateTime date_added, DateTime date_sold, List<string> boughtBy, int price, int size, string county, string city, List<string> address) {
+            this.id = id;
             this.date_added = date_added;
             this.date_sold = date_sold;
             this.boughtBy = boughtBy;
@@ -73,6 +77,9 @@ namespace DexInsights.DataModels {
 
         public List<string> GetAddress() {
             return this.address;
+        }
+        public int GetId() {
+            return this.id;
         }
     }
 }

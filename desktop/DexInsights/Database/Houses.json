@@ -1,1282 +1,2123 @@
-﻿[
+[
   {
+    "id": 0,
     "date_added": "2024-05-01",
     "date_sold": "2023-11-15",
-    "boughtBy": [ "Nagy István", "Kovács Anna" ],
+    "boughtBy": [
+      "Nagy István",
+      "Kovács Anna"
+    ],
     "price": 45000000,
     "size": 120,
     "county": "Pest",
     "city": "Budapest",
-    "address": [ "Kossuth Lajos utca", "15" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "15"
+    ]
   },
   {
+    "id": 1,
     "date_added": "2024-05-01",
     "date_sold": "2024-02-10",
-    "boughtBy": [ "Szabó Péter" ],
+    "boughtBy": [
+      "Szabó Péter"
+    ],
     "price": 35000000,
     "size": 95,
     "county": "Győr-Moson-Sopron",
     "city": "Győr",
-    "address": [ "Baross Gábor út", "8" ]
+    "address": [
+      "Baross Gábor út",
+      "8"
+    ]
   },
   {
+    "id": 2,
     "date_added": "2024-05-02",
     "date_sold": "2023-09-23",
-    "boughtBy": [ "Tóth Éva", "Varga László" ],
+    "boughtBy": [
+      "Tóth Éva",
+      "Varga László"
+    ],
     "price": 27000000,
     "size": 85,
     "county": "Hajdú-Bihar",
     "city": "Debrecen",
-    "address": [ "Petőfi tér", "2" ]
+    "address": [
+      "Petőfi tér",
+      "2"
+    ]
   },
   {
+    "id": 3,
     "date_added": "2024-05-04",
     "date_sold": "2023-12-01",
-    "boughtBy": [ "Kiss Béla" ],
+    "boughtBy": [
+      "Kiss Béla"
+    ],
     "price": 41000000,
     "size": 110,
     "county": "Csongrád-Csanád",
     "city": "Szeged",
-    "address": [ "Szentháromság utca", "19" ]
+    "address": [
+      "Szentháromság utca",
+      "19"
+    ]
   },
   {
+    "id": 4,
     "date_added": "2024-05-04",
     "date_sold": "2024-01-12",
-    "boughtBy": [ "Horváth Márta", "Németh Zoltán" ],
+    "boughtBy": [
+      "Horváth Márta",
+      "Németh Zoltán"
+    ],
     "price": 38000000,
     "size": 100,
     "county": "Baranya",
     "city": "Pécs",
-    "address": [ "Rákóczi út", "23" ]
+    "address": [
+      "Rákóczi út",
+      "23"
+    ]
   },
   {
+    "id": 5,
     "date_added": "2024-05-04",
     "date_sold": "2023-08-30",
-    "boughtBy": [ "Farkas Ferenc" ],
+    "boughtBy": [
+      "Farkas Ferenc"
+    ],
     "price": 32000000,
     "size": 90,
     "county": "Bács-Kiskun",
     "city": "Kecskemét",
-    "address": [ "Széchenyi tér", "5" ]
+    "address": [
+      "Széchenyi tér",
+      "5"
+    ]
   },
   {
+    "id": 6,
     "date_added": "2024-05-05",
     "date_sold": "2024-03-05",
-    "boughtBy": [ "Mészáros László", "Balogh Katalin" ],
+    "boughtBy": [
+      "Mészáros László",
+      "Balogh Katalin"
+    ],
     "price": 47000000,
     "size": 130,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Miskolc",
-    "address": [ "Kossuth utca", "10" ]
+    "address": [
+      "Kossuth utca",
+      "10"
+    ]
   },
   {
+    "id": 7,
     "date_added": "2024-05-06",
     "date_sold": "2023-10-17",
-    "boughtBy": [ "Lukács Róbert" ],
+    "boughtBy": [
+      "Lukács Róbert"
+    ],
     "price": 29000000,
     "size": 75,
     "county": "Heves",
     "city": "Eger",
-    "address": [ "Bajcsy-Zsilinszky utca", "7" ]
+    "address": [
+      "Bajcsy-Zsilinszky utca",
+      "7"
+    ]
   },
   {
+    "id": 8,
     "date_added": "2024-05-07",
     "date_sold": "2024-04-11",
-    "boughtBy": [ "Váradi Ágnes", "Simon Gábor" ],
+    "boughtBy": [
+      "Váradi Ágnes",
+      "Simon Gábor"
+    ],
     "price": 42000000,
     "size": 115,
     "county": "Komárom-Esztergom",
     "city": "Tatabánya",
-    "address": [ "Árpád utca", "12" ]
+    "address": [
+      "Árpád utca",
+      "12"
+    ]
   },
   {
+    "id": 9,
     "date_added": "2024-05-07",
     "date_sold": "2024-01-21",
-    "boughtBy": [ "Juhász János", "Fekete Zsuzsanna" ],
+    "boughtBy": [
+      "Juhász János",
+      "Fekete Zsuzsanna"
+    ],
     "price": 33000000,
     "size": 105,
     "county": "Fejér",
     "city": "Székesfehérvár",
-    "address": [ "Mátyás király utca", "20" ]
+    "address": [
+      "Mátyás király utca",
+      "20"
+    ]
   },
   {
+    "id": 10,
     "date_added": "2024-05-07",
     "date_sold": "2023-11-05",
-    "boughtBy": [ "Molnár Tamás" ],
+    "boughtBy": [
+      "Molnár Tamás"
+    ],
     "price": 36000000,
     "size": 92,
     "county": "Szabolcs-Szatmár-Bereg",
     "city": "Nyíregyháza",
-    "address": [ "Kossuth tér", "3" ]
+    "address": [
+      "Kossuth tér",
+      "3"
+    ]
   },
   {
+    "id": 11,
     "date_added": "2024-05-07",
     "date_sold": "2024-03-15",
-    "boughtBy": [ "Illés Péter", "Papp Csilla" ],
+    "boughtBy": [
+      "Illés Péter",
+      "Papp Csilla"
+    ],
     "price": 44000000,
     "size": 125,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Szolnok",
-    "address": [ "Tisza utca", "14" ]
+    "address": [
+      "Tisza utca",
+      "14"
+    ]
   },
   {
+    "id": 12,
     "date_added": "2024-05-07",
     "date_sold": "2023-12-25",
-    "boughtBy": [ "Veres József" ],
+    "boughtBy": [
+      "Veres József"
+    ],
     "price": 31000000,
     "size": 88,
     "county": "Somogy",
     "city": "Kaposvár",
-    "address": [ "Ady Endre utca", "6" ]
+    "address": [
+      "Ady Endre utca",
+      "6"
+    ]
   },
   {
+    "id": 13,
     "date_added": "2024-05-07",
     "date_sold": "2024-02-28",
-    "boughtBy": [ "Sipos Katalin", "Nagy Mihály" ],
+    "boughtBy": [
+      "Sipos Katalin",
+      "Nagy Mihály"
+    ],
     "price": 48000000,
     "size": 140,
     "county": "Vas",
     "city": "Szombathely",
-    "address": [ "Vörösmarty utca", "4" ]
+    "address": [
+      "Vörösmarty utca",
+      "4"
+    ]
   },
   {
+    "id": 14,
     "date_added": "2024-05-08",
     "date_sold": "2023-09-10",
-    "boughtBy": [ "Oláh Géza" ],
+    "boughtBy": [
+      "Oláh Géza"
+    ],
     "price": 28000000,
     "size": 78,
     "county": "Nógrád",
     "city": "Salgótarján",
-    "address": [ "Arany János utca", "11" ]
+    "address": [
+      "Arany János utca",
+      "11"
+    ]
   },
   {
+    "id": 15,
     "date_added": "2024-05-09",
     "date_sold": "2024-01-18",
-    "boughtBy": [ "Hegedűs Ilona", "Tóth Attila" ],
+    "boughtBy": [
+      "Hegedűs Ilona",
+      "Tóth Attila"
+    ],
     "price": 37000000,
     "size": 98,
     "county": "Tolna",
     "city": "Szekszárd",
-    "address": [ "Kölcsey utca", "8" ]
+    "address": [
+      "Kölcsey utca",
+      "8"
+    ]
   },
   {
+    "id": 16,
     "date_added": "2024-05-09",
     "date_sold": "2023-10-02",
-    "boughtBy": [ "Bognár Tamara" ],
+    "boughtBy": [
+      "Bognár Tamara"
+    ],
     "price": 35000000,
     "size": 93,
     "county": "Veszprém",
     "city": "Veszprém",
-    "address": [ "Eötvös utca", "9" ]
+    "address": [
+      "Eötvös utca",
+      "9"
+    ]
   },
   {
+    "id": 17,
     "date_added": "2024-05-09",
     "date_sold": "2024-03-22",
-    "boughtBy": [ "Király Lajos", "Pál Zsuzsanna" ],
+    "boughtBy": [
+      "Király Lajos",
+      "Pál Zsuzsanna"
+    ],
     "price": 46000000,
     "size": 135,
     "county": "Zala",
     "city": "Zalaegerszeg",
-    "address": [ "Petőfi Sándor utca", "18" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "18"
+    ]
   },
   {
+    "id": 18,
     "date_added": "2024-05-09",
     "date_sold": "2023-11-28",
-    "boughtBy": [ "Vincze Imre" ],
+    "boughtBy": [
+      "Vincze Imre"
+    ],
     "price": 34000000,
     "size": 80,
     "county": "Békés",
     "city": "Békéscsaba",
-    "address": [ "Rákóczi Ferenc utca", "16" ]
+    "address": [
+      "Rákóczi Ferenc utca",
+      "16"
+    ]
   },
   {
+    "id": 19,
     "date_added": "2024-05-11",
     "date_sold": "2024-04-08",
-    "boughtBy": [ "Sárközi László", "Farkas Erika" ],
+    "boughtBy": [
+      "Sárközi László",
+      "Farkas Erika"
+    ],
     "price": 49000000,
     "size": 145,
     "county": "Pest",
     "city": "Érd",
-    "address": [ "Béke tér", "22" ]
+    "address": [
+      "Béke tér",
+      "22"
+    ]
   },
   {
+    "id": 20,
     "date_added": "2024-05-11",
     "date_sold": "2023-08-17",
-    "boughtBy": [ "Antal Károly", "Major Ágnes" ],
+    "boughtBy": [
+      "Antal Károly",
+      "Major Ágnes"
+    ],
     "price": 33000000,
     "size": 86,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Jászberény",
-    "address": [ "Kossuth utca", "5" ]
+    "address": [
+      "Kossuth utca",
+      "5"
+    ]
   },
   {
+    "id": 21,
     "date_added": "2024-05-12",
     "date_sold": "2024-01-25",
-    "boughtBy": [ "László Márk" ],
+    "boughtBy": [
+      "László Márk"
+    ],
     "price": 30000000,
     "size": 90,
     "county": "Fejér",
     "city": "Dunaújváros",
-    "address": [ "Bartók Béla utca", "2" ]
+    "address": [
+      "Bartók Béla utca",
+      "2"
+    ]
   },
   {
+    "id": 22,
     "date_added": "2024-05-12",
     "date_sold": "2023-12-18",
-    "boughtBy": [ "Katona Dóra", "Nagy Norbert" ],
+    "boughtBy": [
+      "Katona Dóra",
+      "Nagy Norbert"
+    ],
     "price": 47000000,
     "size": 138,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Kazincbarcika",
-    "address": [ "Szabadság tér", "3" ]
+    "address": [
+      "Szabadság tér",
+      "3"
+    ]
   },
   {
+    "id": 23,
     "date_added": "2024-05-12",
     "date_sold": "2024-02-19",
-    "boughtBy": [ "Lengyel Máté", "Szikszai Katalin" ],
+    "boughtBy": [
+      "Lengyel Máté",
+      "Szikszai Katalin"
+    ],
     "price": 36000000,
     "size": 95,
     "county": "Hajdú-Bihar",
     "city": "Hajdúszoboszló",
-    "address": [ "Dózsa György utca", "12" ]
+    "address": [
+      "Dózsa György utca",
+      "12"
+    ]
   },
   {
+    "id": 24,
     "date_added": "2024-05-12",
     "date_sold": "2023-09-05",
-    "boughtBy": [ "Fazekas Péter" ],
+    "boughtBy": [
+      "Fazekas Péter"
+    ],
     "price": 40000000,
     "size": 105,
     "county": "Csongrád-Csanád",
     "city": "Hódmezővásárhely",
-    "address": [ "Béke utca", "7" ]
+    "address": [
+      "Béke utca",
+      "7"
+    ]
   },
   {
+    "id": 25,
     "date_added": "2024-05-12",
     "date_sold": "2024-03-28",
-    "boughtBy": [ "Vörös Tamás", "Szakács Noémi" ],
+    "boughtBy": [
+      "Vörös Tamás",
+      "Szakács Noémi"
+    ],
     "price": 45000000,
     "size": 120,
     "county": "Komárom-Esztergom",
     "city": "Komárom",
-    "address": [ "Petőfi Sándor utca", "9" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "9"
+    ]
   },
   {
+    "id": 26,
     "date_added": "2024-05-14",
     "date_sold": "2023-10-11",
-    "boughtBy": [ "Gulyás Anna", "Gulyás Gábor" ],
+    "boughtBy": [
+      "Gulyás Anna",
+      "Gulyás Gábor"
+    ],
     "price": 34000000,
     "size": 88,
     "county": "Békés",
     "city": "Gyula",
-    "address": [ "Széchenyi utca", "11" ]
+    "address": [
+      "Széchenyi utca",
+      "11"
+    ]
   },
   {
+    "id": 27,
     "date_added": "2024-05-14",
     "date_sold": "2024-02-07",
-    "boughtBy": [ "Bakos Dániel", "Tóth Noémi" ],
+    "boughtBy": [
+      "Bakos Dániel",
+      "Tóth Noémi"
+    ],
     "price": 48000000,
     "size": 140,
     "county": "Zala",
     "city": "Nagykanizsa",
-    "address": [ "Rákóczi Ferenc utca", "6" ]
+    "address": [
+      "Rákóczi Ferenc utca",
+      "6"
+    ]
   },
   {
+    "id": 28,
     "date_added": "2024-05-14",
     "date_sold": "2023-08-27",
-    "boughtBy": [ "Szalai Róbert" ],
+    "boughtBy": [
+      "Szalai Róbert"
+    ],
     "price": 31000000,
     "size": 82,
     "county": "Pest",
     "city": "Gödöllő",
-    "address": [ "Kossuth Lajos utca", "8" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "8"
+    ]
   },
   {
+    "id": 29,
     "date_added": "2024-05-14",
     "date_sold": "2024-01-09",
-    "boughtBy": [ "Török Ágnes", "Nagy Gábor" ],
+    "boughtBy": [
+      "Török Ágnes",
+      "Nagy Gábor"
+    ],
     "price": 42000000,
     "size": 110,
     "county": "Szabolcs-Szatmár-Bereg",
     "city": "Mátészalka",
-    "address": [ "Petőfi Sándor utca", "21" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "21"
+    ]
   },
   {
+    "id": 30,
     "date_added": "2024-05-16",
     "date_sold": "2023-12-21",
-    "boughtBy": [ "Takács László" ],
+    "boughtBy": [
+      "Takács László"
+    ],
     "price": 36000000,
     "size": 100,
     "county": "Tolna",
     "city": "Paks",
-    "address": [ "Dózsa György utca", "3" ]
+    "address": [
+      "Dózsa György utca",
+      "3"
+    ]
   },
   {
+    "id": 31,
     "date_added": "2024-05-16",
     "date_sold": "2024-03-12",
-    "boughtBy": [ "Németh Balázs", "Kovács Mária" ],
+    "boughtBy": [
+      "Németh Balázs",
+      "Kovács Mária"
+    ],
     "price": 52000000,
     "size": 150,
     "county": "Pest",
     "city": "Vác",
-    "address": [ "Fő utca", "30" ]
+    "address": [
+      "Fő utca",
+      "30"
+    ]
   },
   {
+    "id": 32,
     "date_added": "2024-05-16",
     "date_sold": "2023-11-05",
-    "boughtBy": [ "Kiss Gergely", "Horváth Zsuzsa" ],
+    "boughtBy": [
+      "Kiss Gergely",
+      "Horváth Zsuzsa"
+    ],
     "price": 38000000,
     "size": 110,
     "county": "Pest",
     "city": "Göd",
-    "address": [ "Duna utca", "18" ]
+    "address": [
+      "Duna utca",
+      "18"
+    ]
   },
   {
+    "id": 33,
     "date_added": "2024-05-17",
     "date_sold": "2024-01-17",
-    "boughtBy": [ "Fekete István" ],
+    "boughtBy": [
+      "Fekete István"
+    ],
     "price": 45000000,
     "size": 135,
     "county": "Pest",
     "city": "Budaörs",
-    "address": [ "Szabadság utca", "11" ]
+    "address": [
+      "Szabadság utca",
+      "11"
+    ]
   },
   {
+    "id": 34,
     "date_added": "2024-05-18",
     "date_sold": "2024-02-22",
-    "boughtBy": [ "Tóth Lajos", "Varga Eszter" ],
+    "boughtBy": [
+      "Tóth Lajos",
+      "Varga Eszter"
+    ],
     "price": 49000000,
     "size": 140,
     "county": "Pest",
     "city": "Szentendre",
-    "address": [ "Rózsa utca", "7" ]
+    "address": [
+      "Rózsa utca",
+      "7"
+    ]
   },
   {
+    "id": 35,
     "date_added": "2024-05-18",
     "date_sold": "2023-10-10",
-    "boughtBy": [ "Szabó András" ],
+    "boughtBy": [
+      "Szabó András"
+    ],
     "price": 40000000,
     "size": 120,
     "county": "Pest",
     "city": "Dunakeszi",
-    "address": [ "Kossuth utca", "15" ]
+    "address": [
+      "Kossuth utca",
+      "15"
+    ]
   },
   {
+    "id": 36,
     "date_added": "2024-05-18",
     "date_sold": "2024-04-01",
-    "boughtBy": [ "Molnár Attila", "Sárközi Anikó" ],
+    "boughtBy": [
+      "Molnár Attila",
+      "Sárközi Anikó"
+    ],
     "price": 51000000,
     "size": 145,
     "county": "Pest",
     "city": "Budakeszi",
-    "address": [ "Jókai utca", "20" ]
+    "address": [
+      "Jókai utca",
+      "20"
+    ]
   },
   {
+    "id": 37,
     "date_added": "2024-05-18",
     "date_sold": "2023-12-30",
-    "boughtBy": [ "Kovács Imre", "Kovács Ágnes" ],
+    "boughtBy": [
+      "Kovács Imre",
+      "Kovács Ágnes"
+    ],
     "price": 43000000,
     "size": 130,
     "county": "Pest",
     "city": "Szigetszentmiklós",
-    "address": [ "Petőfi utca", "5" ]
+    "address": [
+      "Petőfi utca",
+      "5"
+    ]
   },
   {
+    "id": 38,
     "date_added": "2024-05-18",
     "date_sold": "2024-02-14",
-    "boughtBy": [ "Horváth Tibor", "Nagy Ilona" ],
+    "boughtBy": [
+      "Horváth Tibor",
+      "Nagy Ilona"
+    ],
     "price": 48000000,
     "size": 140,
     "county": "Pest",
     "city": "Veresegyház",
-    "address": [ "Ady Endre utca", "12" ]
+    "address": [
+      "Ady Endre utca",
+      "12"
+    ]
   },
   {
+    "id": 39,
     "date_added": "2024-05-18",
     "date_sold": "2023-09-20",
-    "boughtBy": [ "Lakatos Péter", "Fazekas Gabriella" ],
+    "boughtBy": [
+      "Lakatos Péter",
+      "Fazekas Gabriella"
+    ],
     "price": 39000000,
     "size": 115,
     "county": "Pest",
     "city": "Cegléd",
-    "address": [ "Széchenyi utca", "6" ]
+    "address": [
+      "Széchenyi utca",
+      "6"
+    ]
   },
   {
+    "id": 40,
     "date_added": "2024-05-19",
     "date_sold": "2024-03-05",
-    "boughtBy": [ "Nagy László", "Tóth Júlia" ],
+    "boughtBy": [
+      "Nagy László",
+      "Tóth Júlia"
+    ],
     "price": 50000000,
     "size": 150,
     "county": "Pest",
     "city": "Monor",
-    "address": [ "Kossuth Lajos utca", "10" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "10"
+    ]
   },
   {
+    "id": 41,
     "date_added": "2024-05-19",
     "date_sold": "2023-11-15",
-    "boughtBy": [ "Nagy István", "Kovács Anna" ],
+    "boughtBy": [
+      "Nagy István",
+      "Kovács Anna"
+    ],
     "price": 25000000,
     "size": 120,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Miskolc",
-    "address": [ "Kossuth Lajos utca", "15" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "15"
+    ]
   },
   {
+    "id": 42,
     "date_added": "2024-05-20",
     "date_sold": "2024-02-10",
-    "boughtBy": [ "Szabó Péter" ],
+    "boughtBy": [
+      "Szabó Péter"
+    ],
     "price": 18000000,
     "size": 95,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Kazincbarcika",
-    "address": [ "Baross Gábor út", "8" ]
+    "address": [
+      "Baross Gábor út",
+      "8"
+    ]
   },
   {
+    "id": 43,
     "date_added": "2024-05-20",
     "date_sold": "2023-09-23",
-    "boughtBy": [ "Tóth Éva", "Varga László" ],
+    "boughtBy": [
+      "Tóth Éva",
+      "Varga László"
+    ],
     "price": 15000000,
     "size": 85,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Ózd",
-    "address": [ "Petőfi tér", "2" ]
+    "address": [
+      "Petőfi tér",
+      "2"
+    ]
   },
   {
+    "id": 44,
     "date_added": "2024-05-20",
     "date_sold": "2023-12-01",
-    "boughtBy": [ "Kiss Béla" ],
+    "boughtBy": [
+      "Kiss Béla"
+    ],
     "price": 21000000,
     "size": 110,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Tiszaújváros",
-    "address": [ "Szentháromság utca", "19" ]
+    "address": [
+      "Szentháromság utca",
+      "19"
+    ]
   },
   {
+    "id": 45,
     "date_added": "2024-05-21",
     "date_sold": "2024-01-12",
-    "boughtBy": [ "Horváth Márta", "Németh Zoltán" ],
+    "boughtBy": [
+      "Horváth Márta",
+      "Németh Zoltán"
+    ],
     "price": 32000000,
     "size": 175,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Sátoraljaújhely",
-    "address": [ "Rákóczi út", "23" ]
+    "address": [
+      "Rákóczi út",
+      "23"
+    ]
   },
   {
+    "id": 46,
     "date_added": "2024-05-21",
     "date_sold": "2023-08-30",
-    "boughtBy": [ "Farkas Ferenc" ],
+    "boughtBy": [
+      "Farkas Ferenc"
+    ],
     "price": 17000000,
     "size": 90,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Szerencs",
-    "address": [ "Széchenyi tér", "5" ]
+    "address": [
+      "Széchenyi tér",
+      "5"
+    ]
   },
   {
+    "id": 47,
     "date_added": "2024-05-22",
     "date_sold": "2024-03-05",
-    "boughtBy": [ "Mészáros László", "Balogh Katalin" ],
+    "boughtBy": [
+      "Mészáros László",
+      "Balogh Katalin"
+    ],
     "price": 30000000,
     "size": 130,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Mezőkövesd",
-    "address": [ "Kossuth utca", "10" ]
+    "address": [
+      "Kossuth utca",
+      "10"
+    ]
   },
   {
+    "id": 48,
     "date_added": "2024-05-23",
     "date_sold": "2023-10-17",
-    "boughtBy": [ "Lukács Róbert" ],
+    "boughtBy": [
+      "Lukács Róbert"
+    ],
     "price": 22000000,
     "size": 75,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Sárospatak",
-    "address": [ "Bajcsy-Zsilinszky utca", "7" ]
+    "address": [
+      "Bajcsy-Zsilinszky utca",
+      "7"
+    ]
   },
   {
+    "id": 49,
     "date_added": "2024-05-23",
     "date_sold": "2024-04-11",
-    "boughtBy": [ "Váradi Ágnes", "Simon Gábor" ],
+    "boughtBy": [
+      "Váradi Ágnes",
+      "Simon Gábor"
+    ],
     "price": 31000000,
     "size": 115,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Encs",
-    "address": [ "Árpád utca", "12" ]
+    "address": [
+      "Árpád utca",
+      "12"
+    ]
   },
   {
+    "id": 50,
     "date_added": "2024-05-25",
     "date_sold": "2024-01-21",
-    "boughtBy": [ "Juhász János", "Fekete Zsuzsanna" ],
+    "boughtBy": [
+      "Juhász János",
+      "Fekete Zsuzsanna"
+    ],
     "price": 20000000,
     "size": 105,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Putnok",
-    "address": [ "Mátyás király utca", "20" ]
+    "address": [
+      "Mátyás király utca",
+      "20"
+    ]
   },
   {
+    "id": 51,
     "date_added": "2024-05-25",
     "date_sold": "2023-11-05",
-    "boughtBy": [ "Molnár Tamás" ],
+    "boughtBy": [
+      "Molnár Tamás"
+    ],
     "price": 23000000,
     "size": 92,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Edelény",
-    "address": [ "Kossuth tér", "3" ]
+    "address": [
+      "Kossuth tér",
+      "3"
+    ]
   },
   {
+    "id": 52,
     "date_added": "2024-05-25",
     "date_sold": "2024-03-15",
-    "boughtBy": [ "Illés Péter", "Papp Csilla" ],
+    "boughtBy": [
+      "Illés Péter",
+      "Papp Csilla"
+    ],
     "price": 32000000,
     "size": 125,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Tiszalúc",
-    "address": [ "Tisza utca", "14" ]
+    "address": [
+      "Tisza utca",
+      "14"
+    ]
   },
   {
+    "id": 53,
     "date_added": "2024-05-25",
     "date_sold": "2023-12-25",
-    "boughtBy": [ "Veres József" ],
+    "boughtBy": [
+      "Veres József"
+    ],
     "price": 19000000,
     "size": 88,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Szendrő",
-    "address": [ "Ady Endre utca", "6" ]
+    "address": [
+      "Ady Endre utca",
+      "6"
+    ]
   },
   {
+    "id": 54,
     "date_added": "2024-05-26",
     "date_sold": "2024-02-28",
-    "boughtBy": [ "Sipos Katalin", "Nagy Mihály" ],
+    "boughtBy": [
+      "Sipos Katalin",
+      "Nagy Mihály"
+    ],
     "price": 31000000,
     "size": 140,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Szikszó",
-    "address": [ "Vörösmarty utca", "4" ]
+    "address": [
+      "Vörösmarty utca",
+      "4"
+    ]
   },
   {
+    "id": 55,
     "date_added": "2024-05-26",
     "date_sold": "2023-09-10",
-    "boughtBy": [ "Oláh Géza" ],
+    "boughtBy": [
+      "Oláh Géza"
+    ],
     "price": 15000000,
     "size": 78,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Felsőzsolca",
-    "address": [ "Arany János utca", "11" ]
+    "address": [
+      "Arany János utca",
+      "11"
+    ]
   },
   {
+    "id": 56,
     "date_added": "2023-07-20",
     "date_sold": "2023-05-15",
-    "boughtBy": [ "Nagy István", "Kovács Anna" ],
+    "boughtBy": [
+      "Nagy István",
+      "Kovács Anna"
+    ],
     "price": 35000000,
     "size": 120,
     "county": "Budapest",
     "city": "Budapest",
-    "address": [ "Andrássy út", "32" ]
+    "address": [
+      "Andrássy út",
+      "32"
+    ]
   },
   {
+    "id": 57,
     "date_added": "2023-08-10",
     "date_sold": "2023-05-22",
-    "boughtBy": [ "Szabó Péter" ],
+    "boughtBy": [
+      "Szabó Péter"
+    ],
     "price": 22000000,
     "size": 95,
     "county": "Pest",
     "city": "Érd",
-    "address": [ "Fő utca", "45" ]
+    "address": [
+      "Fő utca",
+      "45"
+    ]
   },
   {
+    "id": 58,
     "date_added": "2023-09-01",
     "date_sold": "2023-06-18",
-    "boughtBy": [ "Tóth Éva", "Varga László" ],
+    "boughtBy": [
+      "Tóth Éva",
+      "Varga László"
+    ],
     "price": 18000000,
     "size": 85,
     "county": "Hajdú-Bihar",
     "city": "Debrecen",
-    "address": [ "Kossuth utca", "12" ]
+    "address": [
+      "Kossuth utca",
+      "12"
+    ]
   },
   {
+    "id": 59,
     "date_added": "2023-09-25",
     "date_sold": "2023-07-10",
-    "boughtBy": [ "Kiss Béla" ],
+    "boughtBy": [
+      "Kiss Béla"
+    ],
     "price": 24000000,
     "size": 110,
     "county": "Bács-Kiskun",
     "city": "Kecskemét",
-    "address": [ "Petőfi Sándor utca", "4" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "4"
+    ]
   },
   {
+    "id": 60,
     "date_added": "2023-10-15",
     "date_sold": "2023-07-20",
-    "boughtBy": [ "Horváth Márta", "Németh Zoltán" ],
+    "boughtBy": [
+      "Horváth Márta",
+      "Németh Zoltán"
+    ],
     "price": 28000000,
     "size": 125,
     "county": "Győr-Moson-Sopron",
     "city": "Győr",
-    "address": [ "Széchenyi tér", "8" ]
+    "address": [
+      "Széchenyi tér",
+      "8"
+    ]
   },
   {
+    "id": 61,
     "date_added": "2023-11-05",
     "date_sold": "2023-08-01",
-    "boughtBy": [ "Farkas Ferenc" ],
+    "boughtBy": [
+      "Farkas Ferenc"
+    ],
     "price": 26000000,
     "size": 90,
     "county": "Komárom-Esztergom",
     "city": "Tatabánya",
-    "address": [ "Szent István utca", "17" ]
+    "address": [
+      "Szent István utca",
+      "17"
+    ]
   },
   {
+    "id": 62,
     "date_added": "2023-12-10",
     "date_sold": "2023-09-05",
-    "boughtBy": [ "Mészáros László", "Balogh Katalin" ],
+    "boughtBy": [
+      "Mészáros László",
+      "Balogh Katalin"
+    ],
     "price": 27000000,
     "size": 130,
     "county": "Heves",
     "city": "Eger",
-    "address": [ "Dobó tér", "9" ]
+    "address": [
+      "Dobó tér",
+      "9"
+    ]
   },
   {
+    "id": 63,
     "date_added": "2024-01-01",
     "date_sold": "2023-10-02",
-    "boughtBy": [ "Lukács Róbert" ],
+    "boughtBy": [
+      "Lukács Róbert"
+    ],
     "price": 15000000,
     "size": 75,
     "county": "Nógrád",
     "city": "Salgótarján",
-    "address": [ "Árpád utca", "22" ]
+    "address": [
+      "Árpád utca",
+      "22"
+    ]
   },
   {
+    "id": 64,
     "date_added": "2024-01-25",
     "date_sold": "2023-11-01",
-    "boughtBy": [ "Váradi Ágnes", "Simon Gábor" ],
+    "boughtBy": [
+      "Váradi Ágnes",
+      "Simon Gábor"
+    ],
     "price": 20000000,
     "size": 115,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Miskolc",
-    "address": [ "Hunyadi utca", "6" ]
+    "address": [
+      "Hunyadi utca",
+      "6"
+    ]
   },
   {
+    "id": 65,
     "date_added": "2024-02-10",
     "date_sold": "2023-11-15",
-    "boughtBy": [ "Juhász János", "Fekete Zsuzsanna" ],
+    "boughtBy": [
+      "Juhász János",
+      "Fekete Zsuzsanna"
+    ],
     "price": 21000000,
     "size": 105,
     "county": "Szabolcs-Szatmár-Bereg",
     "city": "Nyíregyháza",
-    "address": [ "Széchenyi út", "30" ]
+    "address": [
+      "Széchenyi út",
+      "30"
+    ]
   },
   {
+    "id": 66,
     "date_added": "2024-03-05",
     "date_sold": "2023-12-01",
-    "boughtBy": [ "Molnár Tamás" ],
+    "boughtBy": [
+      "Molnár Tamás"
+    ],
     "price": 29000000,
     "size": 92,
     "county": "Zala",
     "city": "Zalaegerszeg",
-    "address": [ "Ady Endre utca", "17" ]
+    "address": [
+      "Ady Endre utca",
+      "17"
+    ]
   },
   {
+    "id": 67,
     "date_added": "2024-03-22",
     "date_sold": "2024-01-05",
-    "boughtBy": [ "Illés Péter", "Papp Csilla" ],
+    "boughtBy": [
+      "Illés Péter",
+      "Papp Csilla"
+    ],
     "price": 25000000,
     "size": 125,
     "county": "Tolna",
     "city": "Szekszárd",
-    "address": [ "Rákóczi utca", "8" ]
+    "address": [
+      "Rákóczi utca",
+      "8"
+    ]
   },
   {
+    "id": 68,
     "date_added": "2024-04-01",
     "date_sold": "2024-01-17",
-    "boughtBy": [ "Veres József" ],
+    "boughtBy": [
+      "Veres József"
+    ],
     "price": 19000000,
     "size": 88,
     "county": "Békés",
     "city": "Békéscsaba",
-    "address": [ "Arany János utca", "10" ]
+    "address": [
+      "Arany János utca",
+      "10"
+    ]
   },
   {
+    "id": 69,
     "date_added": "2024-04-15",
     "date_sold": "2024-02-10",
-    "boughtBy": [ "Sipos Katalin", "Nagy Mihály" ],
+    "boughtBy": [
+      "Sipos Katalin",
+      "Nagy Mihály"
+    ],
     "price": 31000000,
     "size": 140,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Szolnok",
-    "address": [ "Petőfi utca", "5" ]
+    "address": [
+      "Petőfi utca",
+      "5"
+    ]
   },
   {
+    "id": 70,
     "date_added": "2023-07-15",
     "date_sold": "2023-06-05",
-    "boughtBy": [ "Oláh Géza" ],
+    "boughtBy": [
+      "Oláh Géza"
+    ],
     "price": 16000000,
     "size": 78,
     "county": "Vas",
     "city": "Szombathely",
-    "address": [ "Szent Márton utca", "19" ]
+    "address": [
+      "Szent Márton utca",
+      "19"
+    ]
   },
   {
+    "id": 71,
     "date_added": "2023-08-12",
     "date_sold": "2023-06-15",
-    "boughtBy": [ "Kovács László", "Tóth Mária" ],
+    "boughtBy": [
+      "Kovács László",
+      "Tóth Mária"
+    ],
     "price": 20000000,
     "size": 85,
     "county": "Fejér",
     "city": "Székesfehérvár",
-    "address": [ "Fő utca", "6" ]
+    "address": [
+      "Fő utca",
+      "6"
+    ]
   },
   {
+    "id": 72,
     "date_added": "2023-09-05",
     "date_sold": "2023-07-01",
-    "boughtBy": [ "Sarkadi Péter" ],
+    "boughtBy": [
+      "Sarkadi Péter"
+    ],
     "price": 24000000,
     "size": 110,
     "county": "Somogy",
     "city": "Kaposvár",
-    "address": [ "Széchenyi tér", "18" ]
+    "address": [
+      "Széchenyi tér",
+      "18"
+    ]
   },
   {
+    "id": 73,
     "date_added": "2023-09-25",
     "date_sold": "2023-07-20",
-    "boughtBy": [ "Nagy István" ],
+    "boughtBy": [
+      "Nagy István"
+    ],
     "price": 18000000,
     "size": 95,
     "county": "Csongrád-Csanád",
     "city": "Szeged",
-    "address": [ "Kossuth Lajos utca", "22" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "22"
+    ]
   },
   {
+    "id": 74,
     "date_added": "2023-10-15",
     "date_sold": "2023-08-01",
-    "boughtBy": [ "Szabó Péter", "Varga Éva" ],
+    "boughtBy": [
+      "Szabó Péter",
+      "Varga Éva"
+    ],
     "price": 22000000,
     "size": 100,
     "county": "Baranya",
     "city": "Pécs",
-    "address": [ "Rákóczi út", "9" ]
+    "address": [
+      "Rákóczi út",
+      "9"
+    ]
   },
   {
+    "id": 75,
     "date_added": "2023-11-05",
     "date_sold": "2023-08-15",
-    "boughtBy": [ "Tóth Ádám" ],
+    "boughtBy": [
+      "Tóth Ádám"
+    ],
     "price": 28000000,
     "size": 115,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Ózd",
-    "address": [ "Petőfi Sándor utca", "11" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "11"
+    ]
   },
   {
+    "id": 76,
     "date_added": "2023-12-10",
     "date_sold": "2023-09-01",
-    "boughtBy": [ "Farkas Ferenc", "Németh Katalin" ],
+    "boughtBy": [
+      "Farkas Ferenc",
+      "Németh Katalin"
+    ],
     "price": 27000000,
     "size": 105,
     "county": "Zala",
     "city": "Keszthely",
-    "address": [ "Deák Ferenc utca", "5" ]
+    "address": [
+      "Deák Ferenc utca",
+      "5"
+    ]
   },
   {
+    "id": 77,
     "date_added": "2024-01-01",
     "date_sold": "2023-10-05",
-    "boughtBy": [ "Mészáros László" ],
+    "boughtBy": [
+      "Mészáros László"
+    ],
     "price": 30000000,
     "size": 135,
     "county": "Hajdú-Bihar",
     "city": "Hajdúszoboszló",
-    "address": [ "Kossuth tér", "7" ]
+    "address": [
+      "Kossuth tér",
+      "7"
+    ]
   },
   {
+    "id": 78,
     "date_added": "2024-01-25",
     "date_sold": "2023-11-01",
-    "boughtBy": [ "Lukács Róbert", "Szabó Ildikó" ],
+    "boughtBy": [
+      "Lukács Róbert",
+      "Szabó Ildikó"
+    ],
     "price": 21000000,
     "size": 92,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Jászberény",
-    "address": [ "Petőfi Sándor utca", "13" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "13"
+    ]
   },
   {
+    "id": 79,
     "date_added": "2024-02-10",
     "date_sold": "2023-11-20",
-    "boughtBy": [ "Váradi Ágnes" ],
+    "boughtBy": [
+      "Váradi Ágnes"
+    ],
     "price": 15000000,
     "size": 78,
     "county": "Veszprém",
     "city": "Ajka",
-    "address": [ "Fő utca", "2" ]
+    "address": [
+      "Fő utca",
+      "2"
+    ]
   },
   {
+    "id": 80,
     "date_added": "2024-03-05",
     "date_sold": "2023-12-05",
-    "boughtBy": [ "Juhász János", "Fekete Zsuzsanna" ],
+    "boughtBy": [
+      "Juhász János",
+      "Fekete Zsuzsanna"
+    ],
     "price": 25000000,
     "size": 105,
     "county": "Pest",
     "city": "Szentendre",
-    "address": [ "Duna utca", "14" ]
+    "address": [
+      "Duna utca",
+      "14"
+    ]
   },
   {
+    "id": 81,
     "date_added": "2024-03-22",
     "date_sold": "2024-01-10",
-    "boughtBy": [ "Molnár Tamás", "Varga Lászlóné" ],
+    "boughtBy": [
+      "Molnár Tamás",
+      "Varga Lászlóné"
+    ],
     "price": 27000000,
     "size": 125,
     "county": "Győr-Moson-Sopron",
     "city": "Mosonmagyaróvár",
-    "address": [ "Bartók Béla út", "23" ]
+    "address": [
+      "Bartók Béla út",
+      "23"
+    ]
   },
   {
+    "id": 82,
     "date_added": "2024-04-01",
     "date_sold": "2024-01-17",
-    "boughtBy": [ "Illés Péter", "Papp Csilla" ],
+    "boughtBy": [
+      "Illés Péter",
+      "Papp Csilla"
+    ],
     "price": 23000000,
     "size": 130,
     "county": "Vas",
     "city": "Kőszeg",
-    "address": [ "Várkör utca", "18" ]
+    "address": [
+      "Várkör utca",
+      "18"
+    ]
   },
   {
+    "id": 83,
     "date_added": "2024-04-15",
     "date_sold": "2024-02-05",
-    "boughtBy": [ "Veres József" ],
+    "boughtBy": [
+      "Veres József"
+    ],
     "price": 19000000,
     "size": 88,
     "county": "Békés",
     "city": "Gyula",
-    "address": [ "Szent István tér", "3" ]
+    "address": [
+      "Szent István tér",
+      "3"
+    ]
   },
   {
+    "id": 84,
     "date_added": "2023-07-22",
     "date_sold": "2023-06-10",
-    "boughtBy": [ "Sipos Katalin", "Nagy Mihály" ],
+    "boughtBy": [
+      "Sipos Katalin",
+      "Nagy Mihály"
+    ],
     "price": 30000000,
     "size": 145,
     "county": "Tolna",
     "city": "Dombóvár",
-    "address": [ "Ady Endre utca", "8" ]
+    "address": [
+      "Ady Endre utca",
+      "8"
+    ]
   },
   {
+    "id": 85,
     "date_added": "2023-08-15",
     "date_sold": "2023-06-25",
-    "boughtBy": [ "Oláh Géza" ],
+    "boughtBy": [
+      "Oláh Géza"
+    ],
     "price": 22000000,
     "size": 98,
     "county": "Fejér",
     "city": "Dunaújváros",
-    "address": [ "Bartók Béla út", "4" ]
+    "address": [
+      "Bartók Béla út",
+      "4"
+    ]
   },
   {
+    "id": 86,
     "date_added": "2023-09-10",
     "date_sold": "2023-07-05",
-    "boughtBy": [ "Kovács László", "Tóth Mária" ],
+    "boughtBy": [
+      "Kovács László",
+      "Tóth Mária"
+    ],
     "price": 21000000,
     "size": 85,
     "county": "Somogy",
     "city": "Marcali",
-    "address": [ "Fő utca", "16" ]
+    "address": [
+      "Fő utca",
+      "16"
+    ]
   },
   {
+    "id": 87,
     "date_added": "2023-09-30",
     "date_sold": "2023-07-20",
-    "boughtBy": [ "Sarkadi Péter", "Nagy István" ],
+    "boughtBy": [
+      "Sarkadi Péter",
+      "Nagy István"
+    ],
     "price": 24000000,
     "size": 120,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Kazincbarcika",
-    "address": [ "Rákóczi út", "14" ]
+    "address": [
+      "Rákóczi út",
+      "14"
+    ]
   },
   {
+    "id": 88,
     "date_added": "2023-10-20",
     "date_sold": "2023-08-05",
-    "boughtBy": [ "Szabó Péter" ],
+    "boughtBy": [
+      "Szabó Péter"
+    ],
     "price": 26000000,
     "size": 110,
     "county": "Csongrád-Csanád",
     "city": "Hódmezővásárhely",
-    "address": [ "Petőfi Sándor utca", "21" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "21"
+    ]
   },
   {
+    "id": 89,
     "date_added": "2023-11-10",
     "date_sold": "2023-08-15",
-    "boughtBy": [ "Tóth Éva", "Varga László" ],
+    "boughtBy": [
+      "Tóth Éva",
+      "Varga László"
+    ],
     "price": 28000000,
     "size": 105,
     "county": "Baranya",
     "city": "Mohács",
-    "address": [ "Széchenyi tér", "10" ]
+    "address": [
+      "Széchenyi tér",
+      "10"
+    ]
   },
   {
+    "id": 90,
     "date_added": "2023-12-20",
     "date_sold": "2023-09-01",
-    "boughtBy": [ "Kiss Béla" ],
+    "boughtBy": [
+      "Kiss Béla"
+    ],
     "price": 32000000,
     "size": 140,
     "county": "Győr-Moson-Sopron",
     "city": "Sopron",
-    "address": [ "Deák tér", "5" ]
+    "address": [
+      "Deák tér",
+      "5"
+    ]
   },
   {
+    "id": 91,
     "date_added": "2024-01-15",
     "date_sold": "2023-10-05",
-    "boughtBy": [ "Horváth Márta" ],
+    "boughtBy": [
+      "Horváth Márta"
+    ],
     "price": 15000000,
     "size": 75,
     "county": "Komárom-Esztergom",
     "city": "Esztergom",
-    "address": [ "Fő tér", "7" ]
+    "address": [
+      "Fő tér",
+      "7"
+    ]
   },
   {
+    "id": 92,
     "date_added": "2024-02-05",
     "date_sold": "2023-11-01",
-    "boughtBy": [ "Farkas Ferenc" ],
+    "boughtBy": [
+      "Farkas Ferenc"
+    ],
     "price": 20000000,
     "size": 105,
     "county": "Veszprém",
     "city": "Veszprém",
-    "address": [ "Dózsa György utca", "3" ]
+    "address": [
+      "Dózsa György utca",
+      "3"
+    ]
   },
   {
+    "id": 93,
     "date_added": "2024-02-25",
     "date_sold": "2023-11-20",
-    "boughtBy": [ "Mészáros László", "Balogh Katalin" ],
+    "boughtBy": [
+      "Mészáros László",
+      "Balogh Katalin"
+    ],
     "price": 27000000,
     "size": 115,
     "county": "Heves",
     "city": "Gyöngyös",
-    "address": [ "Fő tér", "2" ]
+    "address": [
+      "Fő tér",
+      "2"
+    ]
   },
   {
+    "id": 94,
     "date_added": "2024-03-10",
     "date_sold": "2023-12-05",
-    "boughtBy": [ "Lukács Róbert" ],
+    "boughtBy": [
+      "Lukács Róbert"
+    ],
     "price": 23000000,
     "size": 130,
     "county": "Nógrád",
     "city": "Bátonyterenye",
-    "address": [ "Kossuth Lajos utca", "12" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "12"
+    ]
   },
   {
+    "id": 95,
     "date_added": "2024-03-25",
     "date_sold": "2024-01-10",
-    "boughtBy": [ "Váradi Ágnes", "Simon Gábor" ],
+    "boughtBy": [
+      "Váradi Ágnes",
+      "Simon Gábor"
+    ],
     "price": 15000000,
     "size": 80,
     "county": "Pest",
     "city": "Göd",
-    "address": [ "Árpád út", "11" ]
+    "address": [
+      "Árpád út",
+      "11"
+    ]
   },
   {
+    "id": 96,
     "date_added": "2024-04-10",
     "date_sold": "2024-01-25",
-    "boughtBy": [ "Juhász János" ],
+    "boughtBy": [
+      "Juhász János"
+    ],
     "price": 20000000,
     "size": 105,
     "county": "Budapest",
     "city": "Budapest",
-    "address": [ "Rákóczi út", "15" ]
+    "address": [
+      "Rákóczi út",
+      "15"
+    ]
   },
   {
+    "id": 97,
     "date_added": "2024-04-20",
     "date_sold": "2024-02-05",
-    "boughtBy": [ "Molnár Tamás", "Varga Lászlóné" ],
+    "boughtBy": [
+      "Molnár Tamás",
+      "Varga Lászlóné"
+    ],
     "price": 29000000,
     "size": 140,
     "county": "Vas",
     "city": "Sárvár",
-    "address": [ "Széchenyi tér", "18" ]
+    "address": [
+      "Széchenyi tér",
+      "18"
+    ]
   },
   {
+    "id": 98,
     "date_added": "2023-07-10",
     "date_sold": "2023-05-25",
-    "boughtBy": [ "Illés Péter", "Papp Csilla" ],
+    "boughtBy": [
+      "Illés Péter",
+      "Papp Csilla"
+    ],
     "price": 21000000,
     "size": 90,
     "county": "Bács-Kiskun",
     "city": "Kiskunhalas",
-    "address": [ "Petőfi utca", "7" ]
+    "address": [
+      "Petőfi utca",
+      "7"
+    ]
   },
   {
+    "id": 99,
     "date_added": "2023-08-05",
     "date_sold": "2023-06-10",
-    "boughtBy": [ "Veres József" ],
+    "boughtBy": [
+      "Veres József"
+    ],
     "price": 23000000,
     "size": 115,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Törökszentmiklós",
-    "address": [ "Fő tér", "16" ]
+    "address": [
+      "Fő tér",
+      "16"
+    ]
   },
   {
+    "id": 100,
     "date_added": "2023-09-01",
     "date_sold": "2023-07-01",
-    "boughtBy": [ "Sipos Katalin", "Nagy Mihály" ],
+    "boughtBy": [
+      "Sipos Katalin",
+      "Nagy Mihály"
+    ],
     "price": 20000000,
     "size": 98,
     "county": "Szabolcs-Szatmár-Bereg",
     "city": "Mátészalka",
-    "address": [ "Kossuth tér", "4" ]
+    "address": [
+      "Kossuth tér",
+      "4"
+    ]
   },
   {
+    "id": 101,
     "date_added": "2023-09-20",
     "date_sold": "2023-07-10",
-    "boughtBy": [ "Oláh Géza" ],
+    "boughtBy": [
+      "Oláh Géza"
+    ],
     "price": 24000000,
     "size": 110,
     "county": "Tolna",
     "city": "Paks",
-    "address": [ "Bartók Béla utca", "21" ]
+    "address": [
+      "Bartók Béla utca",
+      "21"
+    ]
   },
   {
+    "id": 102,
     "date_added": "2023-10-10",
     "date_sold": "2023-08-01",
-    "boughtBy": [ "Kovács László" ],
+    "boughtBy": [
+      "Kovács László"
+    ],
     "price": 18000000,
     "size": 90,
     "county": "Veszprém",
     "city": "Balatonfüred",
-    "address": [ "Fő utca", "2" ]
+    "address": [
+      "Fő utca",
+      "2"
+    ]
   },
   {
+    "id": 103,
     "date_added": "2023-11-05",
     "date_sold": "2023-08-15",
-    "boughtBy": [ "Tóth Mária" ],
+    "boughtBy": [
+      "Tóth Mária"
+    ],
     "price": 27000000,
     "size": 120,
     "county": "Békés",
     "city": "Békés",
-    "address": [ "Szent István tér", "6" ]
+    "address": [
+      "Szent István tér",
+      "6"
+    ]
   },
   {
+    "id": 104,
     "date_added": "2023-12-01",
     "date_sold": "2023-09-01",
-    "boughtBy": [ "Sarkadi Péter", "Nagy István" ],
+    "boughtBy": [
+      "Sarkadi Péter",
+      "Nagy István"
+    ],
     "price": 19000000,
     "size": 88,
     "county": "Bács-Kiskun",
     "city": "Baja",
-    "address": [ "Deák Ferenc utca", "11" ]
+    "address": [
+      "Deák Ferenc utca",
+      "11"
+    ]
   },
   {
+    "id": 105,
     "date_added": "2023-12-20",
     "date_sold": "2023-09-15",
-    "boughtBy": [ "Szabó Péter", "Varga Éva" ],
+    "boughtBy": [
+      "Szabó Péter",
+      "Varga Éva"
+    ],
     "price": 30000000,
     "size": 145,
     "county": "Somogy",
     "city": "Siófok",
-    "address": [ "Petőfi utca", "9" ]
+    "address": [
+      "Petőfi utca",
+      "9"
+    ]
   },
   {
+    "id": 106,
     "date_added": "2024-01-10",
     "date_sold": "2023-10-01",
-    "boughtBy": [ "Németh Zoltán", "Kiss Béla" ],
+    "boughtBy": [
+      "Németh Zoltán",
+      "Kiss Béla"
+    ],
     "price": 25000000,
     "size": 130,
     "county": "Vas",
     "city": "Körmend",
-    "address": [ "Széchenyi tér", "7" ]
+    "address": [
+      "Széchenyi tér",
+      "7"
+    ]
   },
   {
+    "id": 107,
     "date_added": "2024-01-25",
     "date_sold": "2023-10-15",
-    "boughtBy": [ "Farkas Ferenc", "Németh Katalin" ],
+    "boughtBy": [
+      "Farkas Ferenc",
+      "Németh Katalin"
+    ],
     "price": 19000000,
     "size": 85,
     "county": "Fejér",
     "city": "Mór",
-    "address": [ "Bartók Béla utca", "10" ]
+    "address": [
+      "Bartók Béla utca",
+      "10"
+    ]
   },
   {
+    "id": 108,
     "date_added": "2024-02-10",
     "date_sold": "2023-11-05",
-    "boughtBy": [ "Mészáros László" ],
+    "boughtBy": [
+      "Mészáros László"
+    ],
     "price": 22000000,
     "size": 95,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Karcag",
-    "address": [ "Kossuth tér", "3" ]
+    "address": [
+      "Kossuth tér",
+      "3"
+    ]
   },
   {
+    "id": 109,
     "date_added": "2024-02-25",
     "date_sold": "2023-11-20",
-    "boughtBy": [ "Lukács Róbert", "Szabó Ildikó" ],
+    "boughtBy": [
+      "Lukács Róbert",
+      "Szabó Ildikó"
+    ],
     "price": 16000000,
     "size": 78,
     "county": "Komárom-Esztergom",
     "city": "Tata",
-    "address": [ "Ady Endre utca", "5" ]
+    "address": [
+      "Ady Endre utca",
+      "5"
+    ]
   },
   {
+    "id": 110,
     "date_added": "2024-03-15",
     "date_sold": "2023-12-05",
-    "boughtBy": [ "Váradi Ágnes" ],
+    "boughtBy": [
+      "Váradi Ágnes"
+    ],
     "price": 20000000,
     "size": 105,
     "county": "Heves",
     "city": "Hatvan",
-    "address": [ "Széchenyi utca", "8" ]
+    "address": [
+      "Széchenyi utca",
+      "8"
+    ]
   },
   {
+    "id": 111,
     "date_added": "2024-03-30",
     "date_sold": "2024-01-10",
-    "boughtBy": [ "Juhász János", "Fekete Zsuzsanna" ],
+    "boughtBy": [
+      "Juhász János",
+      "Fekete Zsuzsanna"
+    ],
     "price": 23000000,
     "size": 120,
     "county": "Szabolcs-Szatmár-Bereg",
     "city": "Nyírbátor",
-    "address": [ "Petőfi Sándor utca", "14" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "14"
+    ]
   },
   {
+    "id": 112,
     "date_added": "2024-04-15",
     "date_sold": "2024-01-25",
-    "boughtBy": [ "Molnár Tamás" ],
+    "boughtBy": [
+      "Molnár Tamás"
+    ],
     "price": 25000000,
     "size": 125,
     "county": "Hajdú-Bihar",
     "city": "Balmazújváros",
-    "address": [ "Kossuth tér", "6" ]
+    "address": [
+      "Kossuth tér",
+      "6"
+    ]
   },
   {
+    "id": 113,
     "date_added": "2023-07-10",
     "date_sold": "2023-05-20",
-    "boughtBy": [ "Illés Péter", "Papp Csilla" ],
+    "boughtBy": [
+      "Illés Péter",
+      "Papp Csilla"
+    ],
     "price": 18000000,
     "size": 85,
     "county": "Borsod-Abaúj-Zemplén",
     "city": "Tiszaújváros",
-    "address": [ "Széchenyi utca", "3" ]
+    "address": [
+      "Széchenyi utca",
+      "3"
+    ]
   },
   {
+    "id": 114,
     "date_added": "2023-08-05",
     "date_sold": "2023-06-05",
-    "boughtBy": [ "Veres József" ],
+    "boughtBy": [
+      "Veres József"
+    ],
     "price": 20000000,
     "size": 95,
     "county": "Nógrád",
     "city": "Pásztó",
-    "address": [ "Petőfi Sándor utca", "11" ]
+    "address": [
+      "Petőfi Sándor utca",
+      "11"
+    ]
   },
   {
+    "id": 115,
     "date_added": "2023-09-01",
     "date_sold": "2023-07-01",
-    "boughtBy": [ "Sipos Katalin", "Nagy Mihály" ],
+    "boughtBy": [
+      "Sipos Katalin",
+      "Nagy Mihály"
+    ],
     "price": 23000000,
     "size": 105,
     "county": "Fejér",
     "city": "Bicske",
-    "address": [ "Fő utca", "4" ]
+    "address": [
+      "Fő utca",
+      "4"
+    ]
   },
   {
+    "id": 116,
     "date_added": "2023-09-20",
     "date_sold": "2023-07-10",
-    "boughtBy": [ "Oláh Géza" ],
+    "boughtBy": [
+      "Oláh Géza"
+    ],
     "price": 19000000,
     "size": 88,
     "county": "Pest",
     "city": "Nagykáta",
-    "address": [ "Árpád út", "8" ]
+    "address": [
+      "Árpád út",
+      "8"
+    ]
   },
   {
+    "id": 117,
     "date_added": "2023-10-10",
     "date_sold": "2023-08-01",
-    "boughtBy": [ "Kovács László", "Tóth Mária" ],
+    "boughtBy": [
+      "Kovács László",
+      "Tóth Mária"
+    ],
     "price": 27000000,
     "size": 120,
     "county": "Komárom-Esztergom",
     "city": "Tatabánya",
-    "address": [ "Dózsa György utca", "15" ]
+    "address": [
+      "Dózsa György utca",
+      "15"
+    ]
   },
   {
+    "id": 118,
     "date_added": "2023-11-05",
     "date_sold": "2023-08-15",
-    "boughtBy": [ "Tóth Éva", "Varga László" ],
+    "boughtBy": [
+      "Tóth Éva",
+      "Varga László"
+    ],
     "price": 23000000,
     "size": 105,
     "county": "Bács-Kiskun",
     "city": "Kecskemét",
-    "address": [ "Petőfi utca", "2" ]
+    "address": [
+      "Petőfi utca",
+      "2"
+    ]
   },
   {
+    "id": 119,
     "date_added": "2023-12-01",
     "date_sold": "2023-09-01",
-    "boughtBy": [ "Sarkadi Péter", "Nagy István" ],
+    "boughtBy": [
+      "Sarkadi Péter",
+      "Nagy István"
+    ],
     "price": 25000000,
     "size": 115,
     "county": "Baranya",
     "city": "Pécs",
-    "address": [ "Széchenyi tér", "5" ]
+    "address": [
+      "Széchenyi tér",
+      "5"
+    ]
   },
   {
+    "id": 120,
     "date_added": "2023-12-20",
     "date_sold": "2023-09-20",
-    "boughtBy": [ "Szabó Péter" ],
+    "boughtBy": [
+      "Szabó Péter"
+    ],
     "price": 20000000,
     "size": 105,
     "county": "Zala",
     "city": "Zalaegerszeg",
-    "address": [ "Deák tér", "8" ]
+    "address": [
+      "Deák tér",
+      "8"
+    ]
   },
   {
+    "id": 121,
     "date_added": "2024-01-10",
     "date_sold": "2023-10-01",
-    "boughtBy": [ "Németh Zoltán" ],
+    "boughtBy": [
+      "Németh Zoltán"
+    ],
     "price": 22000000,
     "size": 115,
     "county": "Csongrád-Csanád",
     "city": "Szeged",
-    "address": [ "Bartók Béla utca", "19" ]
+    "address": [
+      "Bartók Béla utca",
+      "19"
+    ]
   },
   {
+    "id": 122,
     "date_added": "2024-01-25",
     "date_sold": "2023-10-15",
-    "boughtBy": [ "Farkas Ferenc" ],
+    "boughtBy": [
+      "Farkas Ferenc"
+    ],
     "price": 20000000,
     "size": 105,
     "county": "Hajdú-Bihar",
     "city": "Debrecen",
-    "address": [ "Kossuth utca", "4" ]
+    "address": [
+      "Kossuth utca",
+      "4"
+    ]
   },
   {
+    "id": 123,
     "date_added": "2024-02-10",
     "date_sold": "2023-11-05",
-    "boughtBy": [ "Mészáros László", "Balogh Katalin" ],
+    "boughtBy": [
+      "Mészáros László",
+      "Balogh Katalin"
+    ],
     "price": 26000000,
     "size": 120,
     "county": "Győr-Moson-Sopron",
     "city": "Győr",
-    "address": [ "Vasút utca", "11" ]
+    "address": [
+      "Vasút utca",
+      "11"
+    ]
   },
   {
+    "id": 124,
     "date_added": "2024-02-25",
     "date_sold": "2023-11-20",
-    "boughtBy": [ "Lukács Róbert", "Szabó Ildikó" ],
+    "boughtBy": [
+      "Lukács Róbert",
+      "Szabó Ildikó"
+    ],
     "price": 18000000,
     "size": 88,
     "county": "Szabolcs-Szatmár-Bereg",
     "city": "Nyíregyháza",
-    "address": [ "Kossuth Lajos utca", "10" ]
+    "address": [
+      "Kossuth Lajos utca",
+      "10"
+    ]
   },
   {
+    "id": 125,
     "date_added": "2024-03-15",
     "date_sold": "2023-12-05",
-    "boughtBy": [ "Váradi Ágnes" ],
+    "boughtBy": [
+      "Váradi Ágnes"
+    ],
     "price": 15000000,
     "size": 78,
     "county": "Jász-Nagykun-Szolnok",
     "city": "Szolnok",
-    "address": [ "Petőfi utca", "11" ]
+    "address": [
+      "Petőfi utca",
+      "11"
+    ]
   },
   {
+    "id": 126,
     "date_added": "2024-03-30",
     "date_sold": "2024-01-10",
-    "boughtBy": [ "Juhász János", "Fekete Zsuzsanna" ],
+    "boughtBy": [
+      "Juhász János",
+      "Fekete Zsuzsanna"
+    ],
     "price": 23000000,
     "size": 120,
     "county": "Veszprém",
     "city": "Tapolca",
-    "address": [ "Fő tér", "3" ]
+    "address": [
+      "Fő tér",
+      "3"
+    ]
   },
   {
+    "id": 127,
     "date_added": "2024-04-15",
     "date_sold": "2024-01-25",
-    "boughtBy": [ "Molnár Tamás", "Varga Lászlóné" ],
+    "boughtBy": [
+      "Molnár Tamás",
+      "Varga Lászlóné"
+    ],
     "price": 24000000,
     "size": 125,
     "county": "Heves",
     "city": "Eger",
-    "address": [ "Széchenyi utca", "4" ]
+    "address": [
+      "Széchenyi utca",
+      "4"
+    ]
   }
 ]
