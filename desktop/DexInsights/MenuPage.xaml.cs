@@ -1,3 +1,4 @@
+using DexInsights.DataModels;
 using DexInsights.ViewModels;
 using DexInsights.Views;
 
@@ -6,11 +7,16 @@ namespace DexInsights;
 public partial class MenuPage : ContentPage {
     private ThemeViewModel tvm;
     private string selected = "";
-    public MenuPage(ThemeViewModel model)
+    private DbUser _user;
+    public MenuPage(ThemeViewModel model, DbUser user)
 	{
 		InitializeComponent();
         BindingContext = model;
         this.tvm = model;
+        this._user = user;
+
+        SetNameLabel();
+        HideMenuPointsForRoles();
     }
 
     private void HoverEndedMenuButton(object sender, PointerEventArgs e) {
@@ -49,8 +55,18 @@ public partial class MenuPage : ContentPage {
     private void FieldsButtonClicked(object sender, TappedEventArgs e) {
         if (selected != "fields") {
             ContentPane.Children.RemoveAt(0);
-            ContentPane.Children.Add(new FieldsView(tvm));
+            ContentPane.Children.Add(new FieldsView(tvm, _user));
             selected = "fields";
         }
     }
+
+    private void SetNameLabel() {
+        usernameLabel.Text = _user.GetName();
+    }
+
+    private void HideMenuPointsForRoles() {
+        if (_user.GetRole() != "Owner") {
+            ((Grid)ManagementStack.Parent).RowDefinitions[3].Height = 0;
+        }
+    }   
 }

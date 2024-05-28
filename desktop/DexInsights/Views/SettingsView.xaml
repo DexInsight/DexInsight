@@ -6,112 +6,125 @@
              x:DataType="viewmodel:ThemeViewModel">
 
     <Frame x:Name="ContentFrame" Background="Transparent" BorderColor="Transparent" Margin="0, 0, 0, 0">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="60"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Border Grid.Row="0" HeightRequest="50" WidthRequest="200" BackgroundColor="{Binding ThemeColor}" Stroke="Transparent">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="10,10,10,10"/>
-                </Border.StrokeShape>
-                <Label FontFamily="Arial" Text="Settings" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="29"/>
-            </Border>
-            <Grid Grid.Row="2">
+        <Border Grid.Row="1" Stroke="Transparent" WidthRequest="1300" HorizontalOptions="Center" HeightRequest="805">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="{Binding ThemeColor2}"
+                            Offset="0" />
+                    <GradientStop Color="#131216"
+                            Offset="1" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="30"/>
-                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Label Grid.Row="0" FontFamily="Arial" Text="Themes" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="29" TextColor="Black"/>
-                <Rectangle Grid.Row="1" WidthRequest="600" BackgroundColor="#414141" HeightRequest="5"/>
+                <Border Grid.Row="0" WidthRequest="200" BackgroundColor="#9924242A" Stroke="Transparent">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="0, 0, 15, 15"/>
+                    </Border.StrokeShape>
+                    <Label FontFamily="Arial" Text="Settings" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="29"/>
+                </Border>
                 <Grid Grid.Row="2">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                    </Grid.ColumnDefinitions>
-                    <Border Grid.Column="0" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC890D0D" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="1" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC894C0D" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="2" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC6E890D" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="3" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC0D8987" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="4" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC0D8921" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="5" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC0D4289" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="6" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC6E0D89" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="7" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC890D5B" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
-                    <Border Grid.Column="8" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC3C3F3E" WidthRequest="70">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="10,10,10,10"/>
-                        </Border.StrokeShape>
-                        <Border.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ChangeThemeColor"/>
-                        </Border.GestureRecognizers>
-                    </Border>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" FontFamily="Arial" Text="Themes" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="29" TextColor="White"/>
+                    <Rectangle Grid.Row="1" WidthRequest="600" BackgroundColor="#414141" HeightRequest="5"/>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC890D0D" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="1" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC894C0D" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="2" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC6E890D" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="3" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC0D8987" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="4" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC0D8921" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="5" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC0D4289" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="6" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC6E0D89" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="7" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC890D5B" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                        <Border Grid.Column="8" HeightRequest="70" StrokeThickness="2" BackgroundColor="#CC3C3F3E" WidthRequest="70">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangeThemeColor"/>
+                            </Border.GestureRecognizers>
+                        </Border>
+                    </Grid>
                 </Grid>
             </Grid>
-        </Grid>
+        </Border>
     </Frame>
 </ContentView>
