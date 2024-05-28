@@ -11,6 +11,8 @@ using System.Runtime.CompilerServices;
 using System.Security.Claims;
 using System.Text.Json;
 using DexInsights.ViewModels;
+using DexInsights.Database;
+using DexInsights.DataModels;
 
 namespace DexInsights;
 
@@ -42,9 +44,10 @@ public partial class LoginPopupPage {
     }
 
     private protected async Task LoginEvent() {
+        DbUser user = ManagementHandler.GetUsers().Find(user => user.GetName() == usernameEntry.Text);
         SetLoginSuccessState();
         await Task.Delay(900);
-        await Navigation.PushAsync(new MenuPage(new ThemeViewModel()), false);
+        await Navigation.PushAsync(new MenuPage(new ThemeViewModel(), user), false);
         await MopupService.Instance.PopAsync(false);
 
         await Task.Delay(200);
