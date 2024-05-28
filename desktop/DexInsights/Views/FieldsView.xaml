@@ -225,9 +225,131 @@
                                 </Grid>
                             </Border>
                             <Border Grid.Row="1" Margin="-2, -2, -2, -2" BackgroundColor="Transparent" Stroke="Transparent">
-                                <VerticalStackLayout x:Name="FieldsTable" Margin="0, 0, 0, 5">
+                                <VerticalStackLayout x:Name="FieldsTable" Margin="0, -2, -2, -2">
                                     
                                 </VerticalStackLayout>
+                            </Border>
+                            <Border Grid.Row="2" BackgroundColor="#222222" Stroke="#1D1D1D">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="140"/>
+                                        <ColumnDefinition Width="140"/>
+                                        <ColumnDefinition Width="300"/>
+                                        <ColumnDefinition Width="140"/>
+                                        <ColumnDefinition Width="140"/>
+                                        <ColumnDefinition Width="230"/>
+                                        <ColumnDefinition Width="210"/>
+                                        <ColumnDefinition Width="240"/>
+                                        <ColumnDefinition Width="180"/>
+                                        <ColumnDefinition Width="50"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Label x:Name="NextEntryId" FontFamily="Arial" IsEnabled="False" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Entry x:Name="NextAdded" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="110" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Entry x:Name="NextSold" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="110" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="3" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="StartAndExpand">
+                                            <Entry x:Name="NextBoughtBy" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="275" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="4" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Entry x:Name="NextPrice" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="110" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="5" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Entry x:Name="NextSize" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="60" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="6" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Entry x:Name="NextCounty" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="200" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="7" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Entry x:Name="NextCity" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="170" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="8" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="StartAndExpand">
+                                            <Entry x:Name="NextAddress" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="215" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid Grid.Column="9" Margin="7, 0, 0, 0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="10"/>
+                                        </Grid.ColumnDefinitions>
+                                        <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                                            <Label x:Name="AddedBy" FontFamily="Arial" Text="" FontSize="20" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="110" HeightRequest="40"/>
+                                        </HorizontalStackLayout>
+                                        <Rectangle HeightRequest="50" WidthRequest="4" BackgroundColor="#1D1D1D" Margin="3" Grid.Column="1"/>
+                                    </Grid>
+                                    <Image Grid.Column="10" Source="save.png" HeightRequest="35" HorizontalOptions="Center" Margin="0, 0, 3, 5">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="NewSaveTapped"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </Grid>
                             </Border>
                         </Grid>
                     </ScrollView>
