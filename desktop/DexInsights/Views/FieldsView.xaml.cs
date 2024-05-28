@@ -13,15 +13,23 @@ public partial class FieldsView : ContentView {
     private int tableIndex = 0;
     private string orderedById = "";
     private int orderedDir = 1;
-    public FieldsView(ThemeViewModel model)
+    private DbUser _user;
+    public FieldsView(ThemeViewModel model, DbUser user)
 	{
         InitializeComponent();
         BindingContext = model;
         this.tvm = model;
+        this._user = user;
 
         AnimateAppearing();
         GetHouses();
         ChangeHousesTable(0);
+        ChangeIdToOrderedByAtStart();
+        PopulateNextEntry();
+    }
+
+    private void ChangeIdToOrderedByAtStart() {
+        ((Border)((Grid)((HorizontalStackLayout)GetId).Parent).Parent).BackgroundColor = Color.FromArgb("1F1F1F");
     }
 
     private void AnimateAppearing() {
@@ -29,6 +37,14 @@ public partial class FieldsView : ContentView {
         { 0, 1, new Animation(v => ((Frame)ContentFrame).TranslationY = v, 200, 0) }
     };
         animation.Commit(((Frame)ContentFrame), "AnimateTranslation", length: 200);
+    }
+
+    private void PopulateNextEntry() {
+        NextEntryId.Text = (houses.Max(house => house.GetId()) + 1).ToString();
+        NextEntryId.IsEnabled = false;
+
+        AddedBy.Text = _user.GetName();
+        AddedBy.IsEnabled = false;
     }
 
     private void GetHouses() {
@@ -42,10 +58,6 @@ public partial class FieldsView : ContentView {
     //        fieldEntryView.SelectForEdit += OnSelectForEdit;
     //    }
     //}
-
-    private void OnSelectForEdit(object sender, int id) {
-
-    }
 
     private void PageArrow_PointerEnter(object sender, PointerEventArgs e) {
         ((Label)sender).TextColor = tvm.ThemeColor2;
@@ -124,10 +136,15 @@ public partial class FieldsView : ContentView {
 
         for (int i = startLength; i < endLength; i++) {
             FieldEntryView fieldEntryView = new FieldEntryView(new FieldEntryViewModel(houses[i]));
-            fieldEntryView.SelectForEdit += OnSelectForEdit;
+            fieldEntryView.OnEdit += OnEditEvent;
             fieldEntryView.DeleteTapEvent += OnFieldRemove;
             FieldsTable.Children.Add(fieldEntryView);
         }
+    }
+
+    private void OnEditEvent(object sender, DbHouse house) {
+        houses[house.GetId()] = house;
+        ManagementHandler.SaveHouses(houses);
     }
 
     private void OnFieldRemove(object sender, int id) {
@@ -135,6 +152,7 @@ public partial class FieldsView : ContentView {
         houses.RemoveAt(index);
         ChangeHousesTable(2);
         ManagementHandler.SaveHouses(houses);
+        PopulateNextEntry();
     }
 
     private void OrderTapped(object sender, TappedEventArgs e) {
@@ -168,5 +186,25 @@ public partial class FieldsView : ContentView {
 
         ((Border)((Grid)((HorizontalStackLayout)sender).Parent).Parent).BackgroundColor = Color.FromArgb("1F1F1F");
         ChangeHousesTable(0);
+    }
+
+    private void NewSaveTapped(object sender, TappedEventArgs e) {
+        houses.Add(new DbHouse(int.Parse(NextEntryId.Text), DateTime.Parse(NextAdded.Text), DateTime.Parse(NextSold.Text), NextBoughtBy.Text.Split(",").ToList(), int.Parse(NextPrice.Text), int.Parse(NextSize.Text), NextCounty.Text, NextCity.Text, NextAddress.Text.Split(",").ToList(), AddedBy.Text));
+        ManagementHandler.SaveHouses(houses);
+        ChangeHousesTable(3);
+
+        ClearNewEntryRow();
+    }
+
+    private void ClearNewEntryRow() {
+        PopulateNextEntry();
+        NextAdded.Text = "";
+        NextSold.Text = "";
+        NextBoughtBy.Text = "";
+        NextPrice.Text = "";
+        NextSize.Text = "";
+        NextCounty.Text = "";
+        NextCity.Text = "";
+        NextAddress.Text = "";
     }
 }
