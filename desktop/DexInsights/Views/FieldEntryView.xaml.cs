@@ -1,4 +1,5 @@
 using CommunityToolkit.Mvvm.Messaging;
+using DexInsights.DataModels;
 using DexInsights.Messages;
 using DexInsights.ViewModels;
 
@@ -7,8 +8,9 @@ namespace DexInsights.Views;
 public partial class FieldEntryView : ContentView, IRecipient<RevertEditFieldMessage>
 {
 	private FieldEntryViewModel fevm;
-    public EventHandler<int> SelectForEdit;
+    public EventHandler<DbHouse> OnEdit;
     public event EventHandler<int> DeleteTapEvent;
+    private static int editedNumber;
     private bool _inEditMode = false;
     public FieldEntryView(FieldEntryViewModel model)
 	{
@@ -28,7 +30,7 @@ public partial class FieldEntryView : ContentView, IRecipient<RevertEditFieldMes
         _inEditMode = true;
         HandleConvertToEdit();
         WeakReferenceMessenger.Default.Send(new RevertEditFieldMessage(fevm.Id));
-        SelectForEdit?.Invoke(this, fevm.Id);
+        editedNumber = fevm.Id;
     }
 
 	private void HandleConvertToEdit() {
@@ -100,9 +102,23 @@ public partial class FieldEntryView : ContentView, IRecipient<RevertEditFieldMes
     public void Receive(RevertEditFieldMessage message) {
         if (message.Value != fevm.Id && _inEditMode) {
             _inEditMode = false;
+            HandleEditedFields();
             HandleRevertFromEdit();
+            if (editedNumber == fevm.Id) OnEdit?.Invoke(this, new DbHouse(fevm.Id, fevm.Date_added, fevm.Date_sold, fevm.BoughtBy, fevm.Price, fevm.Price, fevm.County, fevm.City, fevm.Address, fevm.AddedBy));
         }
     }
+
+    private void HandleEditedFields() {
+        fevm.Date_added = DateTime.Parse(((Entry)(DateAddedStack.Children[0])).Text);
+        fevm.Date_sold = DateTime.Parse(((Entry)DateSoldStack.Children[0]).Text);
+        fevm.BoughtBy = ((Entry)BoughtByStack.Children[0]).Text.Split(", ").ToList();
+        fevm.Price = int.Parse(((Entry)PriceStack.Children[0]).Text);
+        fevm.Size = int.Parse(((Entry)SizeStack.Children[0]).Text);
+        fevm.County = ((Entry)CountyStack.Children[0]).Text;
+        fevm.City = ((Entry)CityStack.Children[0]).Text;
+        fevm.Address = ((Entry)AddressStack.Children[0]).Text.Split(", ").ToList();
+        fevm.AddedBy = ((Label)AddedByStack.Children[0]).Text;
+    }   
 
     private void HandleRevertFromEdit() {
         DateAddedStack.Children.Clear();
